@@ -1,7 +1,8 @@
 PIN CODES TO PUT INTO PINPAD
 -------------------------------
 #### 5778
-###### Gives Rift Point Device to player ##### (will remove after placing)
+###### Gives Rift Point Device to player 
+##### (will remove after placing)
 -------------------------------
 #### 9847
 ###### Gives Jules' Glider Gun to Player
@@ -17,7 +18,8 @@ PIN CODES TO PUT INTO PINPAD
 ###### Pauses Round Ending Timer
 -------------------------------
 #### 5556
-###### Resumes Round Ending Timer ##### (ONLY WORKS IF TIMER IS PAUSED)
+###### Resumes Round Ending Timer 
+##### (ONLY WORKS IF TIMER IS PAUSED)
 -------------------------------
 #### 8888
 ###### Ends The Round
