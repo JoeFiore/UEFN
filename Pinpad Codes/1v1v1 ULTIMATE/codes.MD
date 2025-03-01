@@ -9,10 +9,6 @@ PIN CODES TO PUT INTO PINPAD
 -------------------------------
 #### 1568
 ###### Removes Player Loadout and Grants A Brand New One
-
--------------------------------
-#### 6487
-###### Removes all Players Loadout and Grants New Ones to Each Person
 -------------------------------
 #### 5555
 ###### Pauses Round Ending Timer
