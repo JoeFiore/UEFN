@@ -1,0 +1,798 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/CRD_DeploymentConsole/DeploymentConsole_Device.DeploymentConsole_Device_C Name=DeploymentConsole_Device_C_UAID_70A8D3A00CD4307701_1093601821 Archetype=/CRD_DeploymentConsole/DeploymentConsole_Device.DeploymentConsole_Device_C'/CRD_DeploymentConsole/DeploymentConsole_Device.Default__DeploymentConsole_Device_C' ActorFolderPath=None
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=/Script/Engine.StaticMeshComponent'/CRD_DeploymentConsole/DeploymentConsole_Device.Default__DeploymentConsole_Device_C:StaticMeshComponent0'
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype=/Script/Engine.BoxComponent'/CRD_DeploymentConsole/DeploymentConsole_Device.Default__DeploymentConsole_Device_C:BoundingBoxComponent'
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype=/Script/Engine.StaticMeshComponent'/CRD_DeploymentConsole/DeploymentConsole_Device.Default__DeploymentConsole_Device_C:EditorOnlyStaticMeshComponent'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortActorMetadataComponent Name="FortActorMetadataComponent"
+         End Object
+         Begin Object Class=/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C Name="ToyOptionsComponent" Archetype=/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/CRD_DeploymentConsole/DeploymentConsole_Device.DeploymentConsole_Device_C:ToyOptionsComponent_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortMinigameProgressComponent Name="FortMinigameProgress" Archetype=/Script/FortniteGame.FortMinigameProgressComponent'/Game/Creative/Devices/Common/Creative_Device_Prop_Parent.Creative_Device_Prop_Parent_C:FortMinigameProgress_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C Name="EnabledComponent" Archetype=/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'/Game/Creative/Devices/Common/Creative_Device_Prop_Parent.Creative_Device_Prop_Parent_C:EnabledComponent_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C Name="VisibleInGameComponent" Archetype=/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/Game/Creative/Devices/Common/Creative_Device_Prop_Parent.Creative_Device_Prop_Parent_C:VisibleInGameComponent_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/DeploymentConsole.DeploymentConsoleComponent Name="DeploymentConsole" Archetype=/Script/DeploymentConsole.DeploymentConsoleComponent'/CRD_DeploymentConsole/DeploymentConsole_Device.DeploymentConsole_Device_C:DeploymentConsole_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="PlayerSpawnedFortGameplayTriggerMessage" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_DeploymentConsole/DeploymentConsole_Device.DeploymentConsole_Device_C:PlayerSpawnedFortGameplayTriggerMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.CreativeEditOnlyMeshComponent Name="CreativeEditOnlyMesh" Archetype=/Script/FortniteGame.CreativeEditOnlyMeshComponent'/CRD_DeploymentConsole/DeploymentConsole_Device.DeploymentConsole_Device_C:CreativeEditOnlyMesh_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/Niagara.NiagaraComponent Name="ConsoleVFX" Archetype=/Script/Niagara.NiagaraComponent'/CRD_DeploymentConsole/DeploymentConsole_Device.DeploymentConsole_Device_C:ConsoleVFX_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="SetProfileOneReceiver" Archetype=/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_DeploymentConsole/DeploymentConsole_Device.DeploymentConsole_Device_C:SetProfileOneReceiver_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="SetProfileTwoReceiver" Archetype=/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_DeploymentConsole/DeploymentConsole_Device.DeploymentConsole_Device_C:SetProfileTwoReceiver_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="SetProfileThreeReceiver" Archetype=/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_DeploymentConsole/DeploymentConsole_Device.DeploymentConsole_Device_C:SetProfileThreeReceiver_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="SetRandomProfileReceiver" Archetype=/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_DeploymentConsole/DeploymentConsole_Device.DeploymentConsole_Device_C:SetRandomProfileReceiver_GEN_VARIABLE'
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            CachedMaxDrawDistance=14616.746094
+            OnComponentPhysicsStateChanged=(DeploymentConsole_Device_C_UAID_70A8D3A00CD4307701_1093601821.OnPhysicsStateChanged)
+            RelativeLocation=(X=1052.000000,Y=-9824.000000,Z=6188.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=-89.999999,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent"
+            CachedMaxDrawDistance=14616.746094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent"
+            CachedMaxDrawDistance=14616.746094
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="FortActorMetadataComponent"
+            TemplateID="/CRD_DeploymentConsole/DeploymentConsole_Device.DeploymentConsole_Device_C#2325663955"
+         End Object
+         Begin Object Name="ToyOptionsComponent"
+            PlayerOptionData=(PropertyOverrides=((PropertyName="bForceDiveWhenSpawning",PropertyData="False"),(PropertyName="bP1_GroupTeams",PropertyData="True"),(PropertyName="bP1_SpawnBattleBusForEachTeam",PropertyData="False"),(PropertyName="bP1_SpawnByBattleBusOrRift",PropertyData="True"),(PropertyName="bP2_GroupTeams",PropertyData="True"),(PropertyName="bP2_SpawnBattleBusForEachTeam",PropertyData="False"),(PropertyName="bP2_SpawnByBattleBusOrRift",PropertyData="True"),(PropertyName="bP3_GroupTeams",PropertyData="True"),(PropertyName="bP3_SpawnBattleBusForEachTeam",PropertyData="False"),(PropertyName="bP3_SpawnByBattleBusOrRift",PropertyData="True"),(PropertyName="bP4_GroupTeams",PropertyData="True"),(PropertyName="bP4_SpawnBattleBusForEachTeam",PropertyData="False"),(PropertyName="bP4_SpawnByBattleBusOrRift",PropertyData="True"),(PropertyName="bP5_GroupTeams",PropertyData="True"),(PropertyName="bP5_SpawnBattleBusForEachTeam",PropertyData="False"),(PropertyName="bP5_SpawnByBattleBusOrRift",PropertyData="True"),(PropertyName="bShowCountdownBars",PropertyData="True"),(PropertyName="EditProfile",PropertyData="1"),(PropertyName="LabelOverride",PropertyData="Deployment Console"),(PropertyName="P1_BattleBusElevation",PropertyData="450.000000"),(PropertyName="P1_BattleBusSpeed",PropertyData="50.000000"),(PropertyName="P1_ForceGliderDeploymentHeight",PropertyData="50.000000"),(PropertyName="P1_InitialGliderDeploymentHeight",PropertyData="500.000000"),(PropertyName="P1_MaximumBattleBusPathAngle",PropertyData="360"),(PropertyName="P1_MaximumBattleBusPathDistanceFromCenter",PropertyData="-1"),(PropertyName="P1_MinimumBattleBusPathAngle",PropertyData="0"),(PropertyName="P1_MinimumBattleBusPathDistanceFromCenter",PropertyData="-1"),(PropertyName="P1_PlayerSpawnHeight",PropertyData="200"),(PropertyName="P2_BattleBusElevation",PropertyData="450.000000"),(PropertyName="P2_BattleBusSpeed",PropertyData="50.000000"),(PropertyName="P2_ForceGliderDeploymentHeight",PropertyData="50.000000"),(PropertyName="P2_InitialGliderDeploymentHeight",PropertyData="500.000000"),(PropertyName="P2_MaximumBattleBusPathAngle",PropertyData="360"),(PropertyName="P2_MaximumBattleBusPathDistanceFromCenter",PropertyData="-1"),(PropertyName="P2_MinimumBattleBusPathAngle",PropertyData="0"),(PropertyName="P2_MinimumBattleBusPathDistanceFromCenter",PropertyData="-1"),(PropertyName="P2_PlayerSpawnHeight",PropertyData="200"),(PropertyName="P3_BattleBusElevation",PropertyData="450.000000"),(PropertyName="P3_BattleBusSpeed",PropertyData="50.000000"),(PropertyName="P3_ForceGliderDeploymentHeight",PropertyData="50.000000"),(PropertyName="P3_InitialGliderDeploymentHeight",PropertyData="500.000000"),(PropertyName="P3_MaximumBattleBusPathAngle",PropertyData="360"),(PropertyName="P3_MaximumBattleBusPathDistanceFromCenter",PropertyData="-1"),(PropertyName="P3_MinimumBattleBusPathAngle",PropertyData="0"),(PropertyName="P3_MinimumBattleBusPathDistanceFromCenter",PropertyData="-1"),(PropertyName="P3_PlayerSpawnHeight",PropertyData="200"),(PropertyName="P4_BattleBusElevation",PropertyData="450.000000"),(PropertyName="P4_BattleBusSpeed",PropertyData="50.000000"),(PropertyName="P4_ForceGliderDeploymentHeight",PropertyData="50.000000"),(PropertyName="P4_InitialGliderDeploymentHeight",PropertyData="500.000000"),(PropertyName="P4_MaximumBattleBusPathAngle",PropertyData="360"),(PropertyName="P4_MaximumBattleBusPathDistanceFromCenter",PropertyData="-1"),(PropertyName="P4_MinimumBattleBusPathAngle",PropertyData="0"),(PropertyName="P4_MinimumBattleBusPathDistanceFromCenter",PropertyData="-1"),(PropertyName="P4_PlayerSpawnHeight",PropertyData="200"),(PropertyName="P5_BattleBusElevation",PropertyData="450.000000"),(PropertyName="P5_BattleBusSpeed",PropertyData="50.000000"),(PropertyName="P5_ForceGliderDeploymentHeight",PropertyData="50.000000"),(PropertyName="P5_InitialGliderDeploymentHeight",PropertyData="500.000000"),(PropertyName="P5_MaximumBattleBusPathAngle",PropertyData="360"),(PropertyName="P5_MaximumBattleBusPathDistanceFromCenter",PropertyData="-1"),(PropertyName="P5_MinimumBattleBusPathAngle",PropertyData="0"),(PropertyName="P5_MinimumBattleBusPathDistanceFromCenter",PropertyData="-1"),(PropertyName="P5_PlayerSpawnHeight",PropertyData="200"),(PropertyName="ProfileToActivateAtGameStart",PropertyData="1")))
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="FortMinigameProgress"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="EnabledComponent"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="VisibleInGameComponent"
+            VisibleSceneComponents(0)="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="DeploymentConsole"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="PlayerSpawnedFortGameplayTriggerMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="CreativeEditOnlyMesh"
+            StaticMesh=/Script/Engine.StaticMesh'"/Game/Creative/Devices/Deployment/Meshes/CP_Device_Deployment_01.CP_Device_Deployment_01"'
+            CachedMaxDrawDistance=14616.746094
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="ConsoleVFX"
+            OverrideParameters=()
+            CachedMaxDrawDistance=14616.746094
+            AttachParent="CreativeEditOnlyMesh"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="SetProfileOneReceiver"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="SetProfileTwoReceiver"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="SetProfileThreeReceiver"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="SetRandomProfileReceiver"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         SetRandomProfileReceiver="SetRandomProfileReceiver"
+         SetProfileThreeReceiver="SetProfileThreeReceiver"
+         SetProfileTwoReceiver="SetProfileTwoReceiver"
+         SetProfileOneReceiver="SetProfileOneReceiver"
+         ConsoleVFX="ConsoleVFX"
+         CreativeEditOnlyMesh="CreativeEditOnlyMesh"
+         PlayerSpawnedFortGameplayTriggerMessage="PlayerSpawnedFortGameplayTriggerMessage"
+         DeploymentConsole="DeploymentConsole"
+         bGamePhaseTimerVisibility=False
+         VisibleInGameComponent="VisibleInGameComponent"
+         EnabledComponent="EnabledComponent"
+         FortMinigameProgress="FortMinigameProgress"
+         ToyOptionsComponent="ToyOptionsComponent"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=14616.746094
+         SavedActorGuid=0000000000000000000000002A13FE50
+         ActorTemplateID="/CRD_DeploymentConsole/DeploymentConsole_Device.DeploymentConsole_Device_C#2325663955"
+         LabelOverride="Deployment Console"
+         NetDormancy=DORM_DormantAll
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Deployment Console"
+      End Actor
+      Begin Actor Class=/CRD_MapSettingsDevice/Device_MapSettings.Device_MapSettings_C Name=Device_MapSettings_C_UAID_70A8D3A00CD4307701_1108040822 Archetype=/CRD_MapSettingsDevice/Device_MapSettings.Device_MapSettings_C'/CRD_MapSettingsDevice/Device_MapSettings.Default__Device_MapSettings_C' ActorFolderPath=None
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=/Script/Engine.StaticMeshComponent'/CRD_MapSettingsDevice/Device_MapSettings.Default__Device_MapSettings_C:StaticMeshComponent0'
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype=/Script/Engine.BoxComponent'/CRD_MapSettingsDevice/Device_MapSettings.Default__Device_MapSettings_C:BoundingBoxComponent'
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype=/Script/Engine.StaticMeshComponent'/CRD_MapSettingsDevice/Device_MapSettings.Default__Device_MapSettings_C:EditorOnlyStaticMeshComponent'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortActorMetadataComponent Name="FortActorMetadataComponent"
+         End Object
+         Begin Object Class=/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C Name="ToyOptionsComponent" Archetype=/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/CRD_MapSettingsDevice/Device_MapSettings.Device_MapSettings_C:ToyOptionsComponent_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortMinigameProgressComponent Name="FortMinigameProgress" Archetype=/Script/FortniteGame.FortMinigameProgressComponent'/Game/Creative/Devices/Common/Creative_Device_Prop_Parent.Creative_Device_Prop_Parent_C:FortMinigameProgress_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C Name="EnabledComponent" Archetype=/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'/Game/Creative/Devices/Common/Creative_Device_Prop_Parent.Creative_Device_Prop_Parent_C:EnabledComponent_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C Name="VisibleInGameComponent" Archetype=/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/Game/Creative/Devices/Common/Creative_Device_Prop_Parent.Creative_Device_Prop_Parent_C:VisibleInGameComponent_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.CreativeEditOnlyMeshComponent Name="Console Mesh" Archetype=/Script/FortniteGame.CreativeEditOnlyMeshComponent'/CRD_MapSettingsDevice/Device_MapSettings.Device_MapSettings_C:Console Mesh_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/Niagara.NiagaraComponent Name="ConsoleVFX" Archetype=/Script/Niagara.NiagaraComponent'/CRD_MapSettingsDevice/Device_MapSettings.Device_MapSettings_C:ConsoleVFX_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="WhenRevivingTeammatesTransmitOn" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_MapSettingsDevice/Device_MapSettings.Device_MapSettings_C:WhenRevivingTeammatesTransmitOn_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="WhenPlayerRevivedTransmitOn" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_MapSettingsDevice/Device_MapSettings.Device_MapSettings_C:WhenPlayerRevivedTransmitOn_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="WhenVan RechargedTransmitOn" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_MapSettingsDevice/Device_MapSettings.Device_MapSettings_C:WhenVan RechargedTransmitOn_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="SetProfileOneReceiver" Archetype=/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_MapSettingsDevice/Device_MapSettings.Device_MapSettings_C:SetProfileOneReceiver_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="SetProfileTwoReceiver" Archetype=/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_MapSettingsDevice/Device_MapSettings.Device_MapSettings_C:SetProfileTwoReceiver_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="SetProfileThreeReceiver" Archetype=/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_MapSettingsDevice/Device_MapSettings.Device_MapSettings_C:SetProfileThreeReceiver_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="SetRandomProfileReceiver" Archetype=/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_MapSettingsDevice/Device_MapSettings.Device_MapSettings_C:SetRandomProfileReceiver_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="AugmentGrantedTransmitOn" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_MapSettingsDevice/Device_MapSettings.Device_MapSettings_C:AugmentGrantedTransmitOn_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="AugmentSelectedTransmitOn" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_MapSettingsDevice/Device_MapSettings.Device_MapSettings_C:AugmentSelectedTransmitOn_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="GrantAugmentReceiver" Archetype=/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_MapSettingsDevice/Device_MapSettings.Device_MapSettings_C:GrantAugmentReceiver_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="GrantAugmentRerollReceiver" Archetype=/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_MapSettingsDevice/Device_MapSettings.Device_MapSettings_C:GrantAugmentRerollReceiver_GEN_VARIABLE'
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            OnComponentPhysicsStateChanged=(Device_MapSettings_C_UAID_70A8D3A00CD4307701_1108040822.OnPhysicsStateChanged)
+            RelativeLocation=(X=1052.000000,Y=-10048.000000,Z=6188.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=-89.999999,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent"
+            CachedMaxDrawDistance=7307.896973
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent"
+            CachedMaxDrawDistance=7307.896973
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="FortActorMetadataComponent"
+            TemplateID="/CRD_MapSettingsDevice/Device_MapSettings.Device_MapSettings_C#635151313"
+         End Object
+         Begin Object Name="ToyOptionsComponent"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="FortMinigameProgress"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="EnabledComponent"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="VisibleInGameComponent"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Console Mesh"
+            StaticMesh=/Script/Engine.StaticMesh'"/Game/Creative/Devices/LootController/Meshes/CP_Device_LootController_01.CP_Device_LootController_01"'
+            OverrideMaterials(0)=None
+            OverrideMaterials(1)=/Script/Engine.MaterialInstanceConstant'"/Game/Creative/Devices/MapSettings/Materials/MI_CP_Devices_MapSettings_Screen_01.MI_CP_Devices_MapSettings_Screen_01"'
+            CachedMaxDrawDistance=7307.896973
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="ConsoleVFX"
+            OverrideParameters=()
+            CachedMaxDrawDistance=7307.896973
+            AttachParent="Console Mesh"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="WhenRevivingTeammatesTransmitOn"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="WhenPlayerRevivedTransmitOn"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="WhenVan RechargedTransmitOn"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="SetProfileOneReceiver"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="SetProfileTwoReceiver"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="SetProfileThreeReceiver"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="SetRandomProfileReceiver"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="AugmentGrantedTransmitOn"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="AugmentSelectedTransmitOn"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="GrantAugmentReceiver"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="GrantAugmentRerollReceiver"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         GrantAugmentRerollReceiver="GrantAugmentRerollReceiver"
+         GrantAugmentReceiver="GrantAugmentReceiver"
+         AugmentSelectedTransmitOn="AugmentSelectedTransmitOn"
+         AugmentGrantedTransmitOn="AugmentGrantedTransmitOn"
+         SetRandomProfileReceiver="SetRandomProfileReceiver"
+         SetProfileThreeReceiver="SetProfileThreeReceiver"
+         SetProfileTwoReceiver="SetProfileTwoReceiver"
+         SetProfileOneReceiver="SetProfileOneReceiver"
+         WhenVan RechargedTransmitOn="WhenVan RechargedTransmitOn"
+         WhenPlayerRevivedTransmitOn="WhenPlayerRevivedTransmitOn"
+         WhenRevivingTeammatesTransmitOn="WhenRevivingTeammatesTransmitOn"
+         ConsoleVFX="ConsoleVFX"
+         Console Mesh="Console Mesh"
+         VisibleInGameComponent="VisibleInGameComponent"
+         EnabledComponent="EnabledComponent"
+         FortMinigameProgress="FortMinigameProgress"
+         ToyOptionsComponent="ToyOptionsComponent"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=7307.896973
+         SavedActorGuid=0000000000000000000000004FAD9500
+         ActorTemplateID="/CRD_MapSettingsDevice/Device_MapSettings.Device_MapSettings_C#635151313"
+         LabelOverride="Map Settings Console"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Map Settings Console"
+      End Actor
+      Begin Actor Class=/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C Name=Device_StormCaller_C_UAID_70A8D3A00CD4307701_1171116823 Archetype=/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C'/CRD_StormCaller/Device_StormCaller.Default__Device_StormCaller_C' ActorFolderPath=None
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=/Script/Engine.StaticMeshComponent'/CRD_StormCaller/Device_StormCaller.Default__Device_StormCaller_C:StaticMeshComponent0'
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype=/Script/Engine.BoxComponent'/CRD_StormCaller/Device_StormCaller.Default__Device_StormCaller_C:BoundingBoxComponent'
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype=/Script/Engine.StaticMeshComponent'/CRD_StormCaller/Device_StormCaller.Default__Device_StormCaller_C:EditorOnlyStaticMeshComponent'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortActorMetadataComponent Name="FortActorMetadataComponent"
+         End Object
+         Begin Object Class=/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C Name="ToyOptionsComponent" Archetype=/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C:ToyOptionsComponent_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortMinigameProgressComponent Name="FortMinigameProgress" Archetype=/Script/FortniteGame.FortMinigameProgressComponent'/Game/Creative/Devices/Common/Creative_Device_Prop_Parent.Creative_Device_Prop_Parent_C:FortMinigameProgress_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C Name="EnabledComponent" Archetype=/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'/Game/Creative/Devices/Common/Creative_Device_Prop_Parent.Creative_Device_Prop_Parent_C:EnabledComponent_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C Name="VisibleInGameComponent" Archetype=/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/Game/Creative/Devices/Common/Creative_Device_Prop_Parent.Creative_Device_Prop_Parent_C:VisibleInGameComponent_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/StormCaller.StormCallerComponent Name="StormCallerComponent" Archetype=/Script/StormCaller.StormCallerComponent'/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C:StormCallerComponent_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.CreativeEditOnlyMeshComponent Name="Console Mesh" Archetype=/Script/FortniteGame.CreativeEditOnlyMeshComponent'/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C:Console Mesh_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/Niagara.NiagaraComponent Name="ConsoleVFX" Archetype=/Script/Niagara.NiagaraComponent'/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C:ConsoleVFX_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="Storm1MovingGameplayTriggerMessage" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C:Storm1MovingGameplayTriggerMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="Storm1FinishedMovingGameplayTriggerMessage" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C:Storm1FinishedMovingGameplayTriggerMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="Storm2MovingGameplayTriggerMessage" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C:Storm2MovingGameplayTriggerMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="Storm2FinishedMovingGameplayTriggerMessage" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C:Storm2FinishedMovingGameplayTriggerMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="Storm3MovingGameplayTriggerMessage" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C:Storm3MovingGameplayTriggerMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="Storm3FinishedMovingGameplayTriggerMessage" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C:Storm3FinishedMovingGameplayTriggerMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="Storm4MovingGameplayTriggerMessage" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C:Storm4MovingGameplayTriggerMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="Storm4FinishedMovingGameplayTriggerMessage" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C:Storm4FinishedMovingGameplayTriggerMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="Storm5MovingGameplayTriggerMessage" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C:Storm5MovingGameplayTriggerMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="Storm5FinishedMovingGameplayTriggerMessage" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C:Storm5FinishedMovingGameplayTriggerMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="Storm6MovingGameplayTriggerMessage" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C:Storm6MovingGameplayTriggerMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="Storm6FinishedMovingGameplayTriggerMessage" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C:Storm6FinishedMovingGameplayTriggerMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="Storm7MovingGameplayTriggerMessage" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C:Storm7MovingGameplayTriggerMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="Storm7FinishedMovingGameplayTriggerMessage" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C:Storm7FinishedMovingGameplayTriggerMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="Storm8MovingGameplayTriggerMessage" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C:Storm8MovingGameplayTriggerMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="Storm8FinishedMovingGameplayTriggerMessage" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C:Storm8FinishedMovingGameplayTriggerMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="Storm9MovingGameplayTriggerMessage" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C:Storm9MovingGameplayTriggerMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="Storm9FinishedMovingGameplayTriggerMessage" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C:Storm9FinishedMovingGameplayTriggerMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="Storm10MovingGameplayTriggerMessage" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C:Storm10MovingGameplayTriggerMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="Storm10FinishedMovingGameplayTriggerMessage" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C:Storm10FinishedMovingGameplayTriggerMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="SetRandomProfileReceiver" Archetype=/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C:SetRandomProfileReceiver_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="SetProfileOneReceiver" Archetype=/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C:SetProfileOneReceiver_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="SetProfileTwoReceiver" Archetype=/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C:SetProfileTwoReceiver_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="SetProfileThreeReceiver" Archetype=/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C:SetProfileThreeReceiver_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="Timeline"
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            bGenerateOverlapEvents=True
+            OnComponentPhysicsStateChanged=(Device_StormCaller_C_UAID_70A8D3A00CD4307701_1171116823.OnPhysicsStateChanged)
+            RelativeLocation=(X=1052.000000,Y=-9440.000000,Z=6188.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=-89.999999,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent"
+            CachedMaxDrawDistance=9854.916016
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent"
+            CachedMaxDrawDistance=9854.916016
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="FortActorMetadataComponent"
+            TemplateID="/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C#3576773832"
+         End Object
+         Begin Object Name="ToyOptionsComponent"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="FortMinigameProgress"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="EnabledComponent"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="VisibleInGameComponent"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="StormCallerComponent"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Console Mesh"
+            StaticMesh=/Script/Engine.StaticMesh'"/Game/Creative/Devices/StormCaller/Meshes/CP_Device_StormCaller_01.CP_Device_StormCaller_01"'
+            CachedMaxDrawDistance=9854.916016
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="ConsoleVFX"
+            OverrideParameters=()
+            CachedMaxDrawDistance=9854.916016
+            AttachParent="Console Mesh"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Storm1MovingGameplayTriggerMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Storm1FinishedMovingGameplayTriggerMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Storm2MovingGameplayTriggerMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Storm2FinishedMovingGameplayTriggerMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Storm3MovingGameplayTriggerMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Storm3FinishedMovingGameplayTriggerMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Storm4MovingGameplayTriggerMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Storm4FinishedMovingGameplayTriggerMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Storm5MovingGameplayTriggerMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Storm5FinishedMovingGameplayTriggerMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Storm6MovingGameplayTriggerMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Storm6FinishedMovingGameplayTriggerMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Storm7MovingGameplayTriggerMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Storm7FinishedMovingGameplayTriggerMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Storm8MovingGameplayTriggerMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Storm8FinishedMovingGameplayTriggerMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Storm9MovingGameplayTriggerMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Storm9FinishedMovingGameplayTriggerMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Storm10MovingGameplayTriggerMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Storm10FinishedMovingGameplayTriggerMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="SetRandomProfileReceiver"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="SetProfileOneReceiver"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="SetProfileTwoReceiver"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="SetProfileThreeReceiver"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Timeline"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=40.000000,InterpFloats=((FloatCurve=/Script/Engine.CurveFloat'"/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C:CurveFloat_5_7"',TrackName="StormFadeIn",FloatPropertyName="Timeline_StormFadeIn_2BE754794118C07DC9EBDF9AA654F1CC")),TimelinePostUpdateFunc=Device_StormCaller_C_UAID_70A8D3A00CD4307701_1171116823.Timeline__UpdateFunc,TimelineFinishedFunc=Device_StormCaller_C_UAID_70A8D3A00CD4307701_1171116823.Timeline__FinishedFunc,PropertySetObject=/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C'"Device_StormCaller_C_UAID_70A8D3A00CD4307701_1171116823"',DirectionPropertyName="Timeline__Direction_2BE754794118C07DC9EBDF9AA654F1CC")
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         SetProfileThreeReceiver="SetProfileThreeReceiver"
+         SetProfileTwoReceiver="SetProfileTwoReceiver"
+         SetProfileOneReceiver="SetProfileOneReceiver"
+         SetRandomProfileReceiver="SetRandomProfileReceiver"
+         ConsoleVFX="ConsoleVFX"
+         Storm10FinishedMovingGameplayTriggerMessage="Storm10FinishedMovingGameplayTriggerMessage"
+         Storm10MovingGameplayTriggerMessage="Storm10MovingGameplayTriggerMessage"
+         Storm9FinishedMovingGameplayTriggerMessage="Storm9FinishedMovingGameplayTriggerMessage"
+         Storm9MovingGameplayTriggerMessage="Storm9MovingGameplayTriggerMessage"
+         Storm8FinishedMovingGameplayTriggerMessage="Storm8FinishedMovingGameplayTriggerMessage"
+         Storm8MovingGameplayTriggerMessage="Storm8MovingGameplayTriggerMessage"
+         Storm7FinishedMovingGameplayTriggerMessage="Storm7FinishedMovingGameplayTriggerMessage"
+         Storm7MovingGameplayTriggerMessage="Storm7MovingGameplayTriggerMessage"
+         Storm6FinishedMovingGameplayTriggerMessage="Storm6FinishedMovingGameplayTriggerMessage"
+         Storm6MovingGameplayTriggerMessage="Storm6MovingGameplayTriggerMessage"
+         Storm5FinishedMovingGameplayTriggerMessage="Storm5FinishedMovingGameplayTriggerMessage"
+         Storm5MovingGameplayTriggerMessage="Storm5MovingGameplayTriggerMessage"
+         Storm4FinishedMovingGameplayTriggerMessage="Storm4FinishedMovingGameplayTriggerMessage"
+         Storm4MovingGameplayTriggerMessage="Storm4MovingGameplayTriggerMessage"
+         Storm3FinishedMovingGameplayTriggerMessage="Storm3FinishedMovingGameplayTriggerMessage"
+         Storm3MovingGameplayTriggerMessage="Storm3MovingGameplayTriggerMessage"
+         Storm2FinishedMovingGameplayTriggerMessage="Storm2FinishedMovingGameplayTriggerMessage"
+         Storm2MovingGameplayTriggerMessage="Storm2MovingGameplayTriggerMessage"
+         Storm1FinishedMovingGameplayTriggerMessage="Storm1FinishedMovingGameplayTriggerMessage"
+         Storm1MovingGameplayTriggerMessage="Storm1MovingGameplayTriggerMessage"
+         Console Mesh="Console Mesh"
+         StormCallerComponent="StormCallerComponent"
+         Timeline=/Script/Engine.TimelineComponent'"Timeline"'
+         VisibleInGameComponent="VisibleInGameComponent"
+         EnabledComponent="EnabledComponent"
+         FortMinigameProgress="FortMinigameProgress"
+         ToyOptionsComponent="ToyOptionsComponent"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=9854.916016
+         SavedActorGuid=000000000000000000000000B2F953CC
+         ActorTemplateID="/CRD_StormCaller/Device_StormCaller.Device_StormCaller_C#3576773832"
+         LabelOverride="Storm Caller"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Storm Caller"
+      End Actor
+      Begin Actor Class=/CRD_LootController/Device_LootController.Device_LootController_C Name=Device_LootController_C_UAID_70A8D3A00CD4307701_1188020824 Archetype=/CRD_LootController/Device_LootController.Device_LootController_C'/CRD_LootController/Device_LootController.Default__Device_LootController_C' ActorFolderPath=None
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=/Script/Engine.StaticMeshComponent'/CRD_LootController/Device_LootController.Default__Device_LootController_C:StaticMeshComponent0'
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype=/Script/Engine.BoxComponent'/CRD_LootController/Device_LootController.Default__Device_LootController_C:BoundingBoxComponent'
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype=/Script/Engine.StaticMeshComponent'/CRD_LootController/Device_LootController.Default__Device_LootController_C:EditorOnlyStaticMeshComponent'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortActorMetadataComponent Name="FortActorMetadataComponent"
+         End Object
+         Begin Object Class=/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C Name="ToyOptionsComponent" Archetype=/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/CRD_LootController/Device_LootController.Device_LootController_C:ToyOptionsComponent_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortMinigameProgressComponent Name="FortMinigameProgress" Archetype=/Script/FortniteGame.FortMinigameProgressComponent'/Game/Creative/Devices/Common/Creative_Device_Prop_Parent.Creative_Device_Prop_Parent_C:FortMinigameProgress_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C Name="EnabledComponent" Archetype=/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'/Game/Creative/Devices/Common/Creative_Device_Prop_Parent.Creative_Device_Prop_Parent_C:EnabledComponent_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C Name="VisibleInGameComponent" Archetype=/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/Game/Creative/Devices/Common/Creative_Device_Prop_Parent.Creative_Device_Prop_Parent_C:VisibleInGameComponent_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.CreativeEditOnlyMeshComponent Name="Console Mesh" Archetype=/Script/FortniteGame.CreativeEditOnlyMeshComponent'/CRD_LootController/Device_LootController.Device_LootController_C:Console Mesh_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/Niagara.NiagaraComponent Name="ConsoleVFX" Archetype=/Script/Niagara.NiagaraComponent'/CRD_LootController/Device_LootController.Device_LootController_C:ConsoleVFX_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/LootController.LootControllerNativeComponent Name="LootControllerNativeComponent" Archetype=/Script/LootController.LootControllerNativeComponent'/CRD_LootController/Device_LootController.Device_LootController_C:LootControllerNativeComponent_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="SetProfileOneReceiver" Archetype=/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_LootController/Device_LootController.Device_LootController_C:SetProfileOneReceiver_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="SetProfileTwoReceiver" Archetype=/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_LootController/Device_LootController.Device_LootController_C:SetProfileTwoReceiver_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="SetProfileThreeReceiver" Archetype=/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_LootController/Device_LootController.Device_LootController_C:SetProfileThreeReceiver_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="SetRandomProfileReceiver" Archetype=/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_LootController/Device_LootController.Device_LootController_C:SetRandomProfileReceiver_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="ChestLootedMessage" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_LootController/Device_LootController.Device_LootController_C:ChestLootedMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="RareChestLootedMessage" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_LootController/Device_LootController.Device_LootController_C:RareChestLootedMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="ProduceLootedMessage" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_LootController/Device_LootController.Device_LootController_C:ProduceLootedMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="AmmoLootedMessage" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_LootController/Device_LootController.Device_LootController_C:AmmoLootedMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="CashRegisterLootMessage" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_LootController/Device_LootController.Device_LootController_C:CashRegisterLootMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            OnComponentPhysicsStateChanged=(Device_LootController_C_UAID_70A8D3A00CD4307701_1188020824.OnPhysicsStateChanged)
+            RelativeLocation=(X=1052.000000,Y=-9600.000000,Z=6188.000000)
+            RelativeRotation=(Pitch=0.000000,Yaw=-89.999999,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent"
+            CachedMaxDrawDistance=7307.896973
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent"
+            CachedMaxDrawDistance=7307.896973
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="FortActorMetadataComponent"
+            TemplateID="/CRD_LootController/Device_LootController.Device_LootController_C#1700927642"
+         End Object
+         Begin Object Name="ToyOptionsComponent"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="FortMinigameProgress"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="EnabledComponent"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="VisibleInGameComponent"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Console Mesh"
+            StaticMesh=/Script/Engine.StaticMesh'"/Game/Creative/Devices/LootController/Meshes/CP_Device_LootController_01.CP_Device_LootController_01"'
+            CachedMaxDrawDistance=7307.896973
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="ConsoleVFX"
+            OverrideParameters=()
+            CachedMaxDrawDistance=7307.896973
+            AttachParent="Console Mesh"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="LootControllerNativeComponent"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="SetProfileOneReceiver"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="SetProfileTwoReceiver"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="SetProfileThreeReceiver"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="SetRandomProfileReceiver"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="ChestLootedMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="RareChestLootedMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="ProduceLootedMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="AmmoLootedMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="CashRegisterLootMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         CashRegisterLootMessage="CashRegisterLootMessage"
+         AmmoLootedMessage="AmmoLootedMessage"
+         ProduceLootedMessage="ProduceLootedMessage"
+         RareChestLootedMessage="RareChestLootedMessage"
+         ChestLootedMessage="ChestLootedMessage"
+         SetRandomProfileReceiver="SetRandomProfileReceiver"
+         SetProfileThreeReceiver="SetProfileThreeReceiver"
+         SetProfileTwoReceiver="SetProfileTwoReceiver"
+         SetProfileOneReceiver="SetProfileOneReceiver"
+         LootControllerNativeComponent="LootControllerNativeComponent"
+         ConsoleVFX="ConsoleVFX"
+         Console Mesh="Console Mesh"
+         VisibleInGameComponent="VisibleInGameComponent"
+         EnabledComponent="EnabledComponent"
+         FortMinigameProgress="FortMinigameProgress"
+         ToyOptionsComponent="ToyOptionsComponent"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=7307.896973
+         SavedActorGuid=000000000000000000000000BBB535AE
+         ActorTemplateID="/CRD_LootController/Device_LootController.Device_LootController_C#1700927642"
+         LabelOverride="Loot Controller"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Loot Controller"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map

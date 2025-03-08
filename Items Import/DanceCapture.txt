@@ -1,0 +1,104 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/CRD_Papaya_Dance_Mannequin/Device_Dance_Mannequin_Capture_V2.Device_Dance_Mannequin_Capture_V2_C Name=Device_Dance_Mannequin_Capture_V2_C_UAID_70A8D3A00CD4377701_1357097536 Archetype=/CRD_Papaya_Dance_Mannequin/Device_Dance_Mannequin_Capture_V2.Device_Dance_Mannequin_Capture_V2_C'/CRD_Papaya_Dance_Mannequin/Device_Dance_Mannequin_Capture_V2.Default__Device_Dance_Mannequin_Capture_V2_C' ActorFolderPath=None
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=/Script/Engine.StaticMeshComponent'/CRD_Papaya_Dance_Mannequin/Device_Dance_Mannequin_Capture_V2.Default__Device_Dance_Mannequin_Capture_V2_C:StaticMeshComponent0'
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype=/Script/Engine.BoxComponent'/CRD_Papaya_Dance_Mannequin/Device_Dance_Mannequin_Capture_V2.Default__Device_Dance_Mannequin_Capture_V2_C:BoundingBoxComponent'
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype=/Script/Engine.StaticMeshComponent'/CRD_Papaya_Dance_Mannequin/Device_Dance_Mannequin_Capture_V2.Default__Device_Dance_Mannequin_Capture_V2_C:EditorOnlyStaticMeshComponent'
+         End Object
+         Begin Object Class=/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C Name="ToyOptionsComponent" Archetype=/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/CRD_Papaya_Dance_Mannequin/Device_Dance_Mannequin_Capture_V2.Device_Dance_Mannequin_Capture_V2_C:ToyOptionsComponent_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortMinigameProgressComponent Name="FortMinigameProgress" Archetype=/Script/FortniteGame.FortMinigameProgressComponent'/Game/Creative/Devices/Common/Creative_Device_Prop_Parent.Creative_Device_Prop_Parent_C:FortMinigameProgress_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C Name="EnabledComponent" Archetype=/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'/Game/Creative/Devices/Common/Creative_Device_Prop_Parent.Creative_Device_Prop_Parent_C:EnabledComponent_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C Name="VisibleInGameComponent" Archetype=/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/Game/Creative/Devices/Common/Creative_Device_Prop_Parent.Creative_Device_Prop_Parent_C:VisibleInGameComponent_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="ActivateBox" Archetype=/Script/Engine.BoxComponent'/CRD_Papaya_Dance_Mannequin/Device_Dance_Mannequin_Capture_V2.Device_Dance_Mannequin_Capture_V2_C:ActivateBox_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="CaptureTriggerActivateMessage" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_Papaya_Dance_Mannequin/Device_Dance_Mannequin_Capture_V2.Device_Dance_Mannequin_Capture_V2_C:CaptureTriggerActivateMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="CaptureTriggerDeactivateMessage" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_Papaya_Dance_Mannequin/Device_Dance_Mannequin_Capture_V2.Device_Dance_Mannequin_Capture_V2_C:CaptureTriggerDeactivateMessage_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortActorMetadataComponent Name="FortActorMetadataComponent"
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            OverrideMaterials(0)=/Script/Engine.MaterialInstanceDynamic'"/Engine/Transient.MaterialInstanceDynamic_339"'
+            CachedMaxDrawDistance=5832.189453
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            OnComponentPhysicsStateChanged=(Device_Dance_Mannequin_Capture_V2_C_UAID_70A8D3A00CD4377701_1357097536.OnPhysicsStateChanged)
+            RelativeLocation=(X=-220.000000,Y=-8968.000000,Z=6144.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent"
+            CachedMaxDrawDistance=5832.189453
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent"
+            CachedMaxDrawDistance=5832.189453
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="ToyOptionsComponent"
+            PlayerOptionData=(PropertyOverrides=((PropertyName="ActivateNearestHologramDancer",PropertyData="True"),(PropertyName="LabelOverride",PropertyData="Dance Capture")))
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="FortMinigameProgress"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="EnabledComponent"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="VisibleInGameComponent"
+            VisibleSceneComponents(0)="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="ActivateBox"
+            CachedMaxDrawDistance=5832.189453
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="CaptureTriggerActivateMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="CaptureTriggerDeactivateMessage"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="FortActorMetadataComponent"
+            TemplateID="/CRD_Papaya_Dance_Mannequin/Device_Dance_Mannequin_Capture_V2.Device_Dance_Mannequin_Capture_V2_C#2943668113"
+         End Object
+         CaptureTriggerDeactivateMessage="CaptureTriggerDeactivateMessage"
+         CaptureTriggerActivateMessage="CaptureTriggerActivateMessage"
+         ActivateBox="ActivateBox"
+         VisibleInGameComponent="VisibleInGameComponent"
+         EnabledComponent="EnabledComponent"
+         FortMinigameProgress="FortMinigameProgress"
+         ToyOptionsComponent="ToyOptionsComponent"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=5832.189453
+         SavedActorGuid=513038014F563BD8E7A498BDA1CC6F9E
+         ActorTemplateID="/CRD_Papaya_Dance_Mannequin/Device_Dance_Mannequin_Capture_V2.Device_Dance_Mannequin_Capture_V2_C#2943668113"
+         LabelOverride="Dance Capture"
+         NetDormancy=DORM_DormantAll
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Dance Capture"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map

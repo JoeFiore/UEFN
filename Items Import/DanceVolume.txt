@@ -1,0 +1,19 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/CRD_DanceVolume/Device_DanceVolume.Device_DanceVolume_C Name=Device_DanceVolume_C_UAID_04D9F57D3047C97201_1478958922 Archetype=/CRD_DanceVolume/Device_DanceVolume.Device_DanceVolume_C'/CRD_DanceVolume/Device_DanceVolume.Default__Device_DanceVolume_C' ActorFolderPath=None
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype=/Script/Engine.SceneComponent'/CRD_DanceVolume/Device_DanceVolume.Device_DanceVolume_C:DefaultSceneRoot_GEN_VARIABLE'
+         End Object
+         Begin Object Name="DefaultSceneRoot"
+            RelativeLocation=(X=-15422.382771,Y=2111.983570,Z=3430.101971)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         DefaultSceneRoot="DefaultSceneRoot"
+         RootComponent="DefaultSceneRoot"
+         ActorLabel="Dance Volume"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map

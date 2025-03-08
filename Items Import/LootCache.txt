@@ -1,0 +1,156 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/MidMatchAssignedGameplay/Items/Environmental/BGA_MidMatchAssignedObjective_Interaction_LootCache.BGA_MidMatchAssignedObjective_Interaction_LootCache_C Name=BGA_MidMatchAssignedObjective_Interaction_LootCache_C_UAID_70A8D3A00CD4307701_2057547840 Archetype=/MidMatchAssignedGameplay/Items/Environmental/BGA_MidMatchAssignedObjective_Interaction_LootCache.BGA_MidMatchAssignedObjective_Interaction_LootCache_C'/MidMatchAssignedGameplay/Items/Environmental/BGA_MidMatchAssignedObjective_Interaction_LootCache.Default__BGA_MidMatchAssignedObjective_Interaction_LootCache_C' ActorFolderPath=None
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype=/Script/Engine.SceneComponent'/MidMatchAssignedGameplay/Items/Environmental/BGA_MidMatchAssignedObjective_Interaction_LootCache.BGA_MidMatchAssignedObjective_Interaction_LootCache_C:ICH-DefaultSceneRoot_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="InteractionObject" Archetype=/Script/Engine.StaticMeshComponent'/MidMatchAssignedGameplay/Items/Environmental/BGA_MidMatchAssignedObjective_Interaction_LootCache.BGA_MidMatchAssignedObjective_Interaction_LootCache_C:InteractionObject_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortWidgetComponent Name="Widget_ProgressIndicator" Archetype=/Script/FortniteGame.FortWidgetComponent'/MidMatchAssignedGameplay/Items/Environmental/BGA_MidMatchAssignedObjective_Interaction_LootCache.BGA_MidMatchAssignedObjective_Interaction_LootCache_C:Widget_ProgressIndicator_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortAutoRegisterActorComponent Name="FortAutoRegisterActor" Archetype=/Script/FortniteGame.FortAutoRegisterActorComponent'/MidMatchAssignedGameplay/Items/Environmental/BGA_MidMatchAssignedObjective_Interaction_Parent.BGA_MidMatchAssignedObjective_Interaction_Parent_C:FortAutoRegisterActor_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortMiniMapComponent_Discoverable Name="FortMiniMapComponent_Discoverable" Archetype=/Script/FortniteGame.FortMiniMapComponent_Discoverable'/MidMatchAssignedGameplay/Items/Environmental/BGA_MidMatchAssignedObjective_Interaction_LootCache.BGA_MidMatchAssignedObjective_Interaction_LootCache_C:FortMiniMapComponent_Discoverable_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="SpawnInObjectScale"
+         End Object
+         Begin Object Class=/Script/Engine.AudioComponent Name="SFX_ObjectiveTimerActive_loop" Archetype=/Script/Engine.AudioComponent'/MidMatchAssignedGameplay/Items/Environmental/BGA_MidMatchAssignedObjective_Interaction_LootCache.BGA_MidMatchAssignedObjective_Interaction_LootCache_C:SFX_ObjectiveTimerActive_loop_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/Niagara.NiagaraComponent Name="NS_Aug_Container_Lightcone_01" Archetype=/Script/Niagara.NiagaraComponent'/MidMatchAssignedGameplay/Items/Environmental/BGA_MidMatchAssignedObjective_Interaction_LootCache.BGA_MidMatchAssignedObjective_Interaction_LootCache_C:NS_Aug_Container_Lightcone_01_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="Hologram" Archetype=/Script/Engine.StaticMeshComponent'/MidMatchAssignedGameplay/Items/Environmental/BGA_MidMatchAssignedObjective_Interaction_LootCache.BGA_MidMatchAssignedObjective_Interaction_LootCache_C:Hologram_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/Niagara.NiagaraComponent Name="NS_AssignedObjective_LocationBeam" Archetype=/Script/Niagara.NiagaraComponent'/MidMatchAssignedGameplay/Items/Environmental/BGA_MidMatchAssignedObjective_Interaction_LootCache.BGA_MidMatchAssignedObjective_Interaction_LootCache_C:NS_AssignedObjective_LocationBeam_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/Engine.AudioComponent Name="SFX_ObjectiveSpawned_loop" Archetype=/Script/Engine.AudioComponent'/MidMatchAssignedGameplay/Items/Environmental/BGA_MidMatchAssignedObjective_Interaction_LootCache.BGA_MidMatchAssignedObjective_Interaction_LootCache_C:SFX_ObjectiveSpawned_loop_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/SoundLibrary.SoundLibraryComponent Name="SoundLibrary" Archetype=/Script/SoundLibrary.SoundLibraryComponent'/MidMatchAssignedGameplay/Items/Environmental/BGA_MidMatchAssignedObjective_Interaction_LootCache.BGA_MidMatchAssignedObjective_Interaction_LootCache_C:SoundLibrary_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="DecayColorTimeline"
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="Fade out hologram"
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="TimelineObjectiveVisualUnlocking"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortActorMetadataComponent Name="FortActorMetadataComponent"
+         End Object
+         Begin Object Name="DefaultSceneRoot"
+            RelativeLocation=(X=-1528.000000,Y=-9788.000000,Z=6144.000000)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="InteractionObject"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="DefaultSceneRoot"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Widget_ProgressIndicator"
+            CurrentDrawSize=(X=500,Y=500)
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="DefaultSceneRoot"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="FortAutoRegisterActor"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="FortMiniMapComponent_Discoverable"
+            Radius=150000.000000
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="SpawnInObjectScale"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=1.000000,InterpFloats=((FloatCurve=/Script/Engine.CurveFloat'"/MidMatchAssignedGameplay/Items/Environmental/BGA_MidMatchAssignedObjective_Interaction_Parent.BGA_MidMatchAssignedObjective_Interaction_Parent_C:CurveFloat_4"',TrackName="NormalizedScale",FloatPropertyName="SpawnInObjectScale_NormalizedScale_DB616710468C669F8FD957991466F146")),TimelinePostUpdateFunc=BGA_MidMatchAssignedObjective_Interaction_LootCache_C_UAID_70A8D3A00CD4307701_2057547840.SpawnInObjectScale__UpdateFunc,TimelineFinishedFunc=BGA_MidMatchAssignedObjective_Interaction_LootCache_C_UAID_70A8D3A00CD4307701_2057547840.SpawnInObjectScale__FinishedFunc,PropertySetObject=/MidMatchAssignedGameplay/Items/Environmental/BGA_MidMatchAssignedObjective_Interaction_LootCache.BGA_MidMatchAssignedObjective_Interaction_LootCache_C'"BGA_MidMatchAssignedObjective_Interaction_LootCache_C_UAID_70A8D3A00CD4307701_2057547840"',DirectionPropertyName="SpawnInObjectScale__Direction_DB616710468C669F8FD957991466F146")
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="SFX_ObjectiveTimerActive_loop"
+            AttachParent="DefaultSceneRoot"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="NS_Aug_Container_Lightcone_01"
+            OverrideParameters=()
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="DefaultSceneRoot"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Hologram"
+            CachedMaxDrawDistance=2800.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            AttachParent="NS_Aug_Container_Lightcone_01"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="NS_AssignedObjective_LocationBeam"
+            OverrideParameters=()
+            AttachParent="DefaultSceneRoot"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="SFX_ObjectiveSpawned_loop"
+            AttachParent="DefaultSceneRoot"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="SoundLibrary"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="DecayColorTimeline"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=1.000000,Events=((Time=0.999000,EventFunc=BGA_MidMatchAssignedObjective_Interaction_LootCache_C_UAID_70A8D3A00CD4307701_2057547840.DecayColorTimeline__Fire FX__EventFunc)),InterpFloats=((FloatCurve=/Script/Engine.CurveFloat'"/MidMatchAssignedGameplay/Items/Environmental/BGA_MidMatchAssignedObjective_Interaction_LootCache.BGA_MidMatchAssignedObjective_Interaction_LootCache_C:CurveFloat_0"',TrackName="Colorswap Progress",FloatPropertyName="DecayColorTimeline_Colorswap_Progress_6F420FD94D769F528D12509CB04F3B76")),TimelinePostUpdateFunc=BGA_MidMatchAssignedObjective_Interaction_LootCache_C_UAID_70A8D3A00CD4307701_2057547840.DecayColorTimeline__UpdateFunc,TimelineFinishedFunc=BGA_MidMatchAssignedObjective_Interaction_LootCache_C_UAID_70A8D3A00CD4307701_2057547840.DecayColorTimeline__FinishedFunc,PropertySetObject=/MidMatchAssignedGameplay/Items/Environmental/BGA_MidMatchAssignedObjective_Interaction_LootCache.BGA_MidMatchAssignedObjective_Interaction_LootCache_C'"BGA_MidMatchAssignedObjective_Interaction_LootCache_C_UAID_70A8D3A00CD4307701_2057547840"',DirectionPropertyName="DecayColorTimeline__Direction_6F420FD94D769F528D12509CB04F3B76")
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="Fade out hologram"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=0.350000,InterpFloats=((FloatCurve=/Script/Engine.CurveFloat'"/MidMatchAssignedGameplay/Items/Environmental/BGA_MidMatchAssignedObjective_Interaction_LootCache.BGA_MidMatchAssignedObjective_Interaction_LootCache_C:CurveFloat_2"',TrackName="Opacity",FloatPropertyName="Fade_out_hologram_Opacity_75D9BC3844B3A1DC0912228A9E1F902A")),TimelinePostUpdateFunc=BGA_MidMatchAssignedObjective_Interaction_LootCache_C_UAID_70A8D3A00CD4307701_2057547840.Fade out hologram__UpdateFunc,TimelineFinishedFunc=BGA_MidMatchAssignedObjective_Interaction_LootCache_C_UAID_70A8D3A00CD4307701_2057547840.Fade out hologram__FinishedFunc,PropertySetObject=/MidMatchAssignedGameplay/Items/Environmental/BGA_MidMatchAssignedObjective_Interaction_LootCache.BGA_MidMatchAssignedObjective_Interaction_LootCache_C'"BGA_MidMatchAssignedObjective_Interaction_LootCache_C_UAID_70A8D3A00CD4307701_2057547840"',DirectionPropertyName="Fade_out_hologram__Direction_75D9BC3844B3A1DC0912228A9E1F902A")
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="TimelineObjectiveVisualUnlocking"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=1.000000,InterpFloats=((FloatCurve=/Script/Engine.CurveFloat'"/MidMatchAssignedGameplay/Items/Environmental/BGA_MidMatchAssignedObjective_Interaction_LootCache.BGA_MidMatchAssignedObjective_Interaction_LootCache_C:CurveFloat_3_4"',TrackName="LinearZeroToOne",FloatPropertyName="TimelineObjectiveVisualUnlocking_LinearZeroToOne_6D29B79B436622CAE9B108AE86105C0C")),TimelinePostUpdateFunc=BGA_MidMatchAssignedObjective_Interaction_LootCache_C_UAID_70A8D3A00CD4307701_2057547840.TimelineObjectiveVisualUnlocking__UpdateFunc,TimelineFinishedFunc=BGA_MidMatchAssignedObjective_Interaction_LootCache_C_UAID_70A8D3A00CD4307701_2057547840.TimelineObjectiveVisualUnlocking__FinishedFunc,PropertySetObject=/MidMatchAssignedGameplay/Items/Environmental/BGA_MidMatchAssignedObjective_Interaction_LootCache.BGA_MidMatchAssignedObjective_Interaction_LootCache_C'"BGA_MidMatchAssignedObjective_Interaction_LootCache_C_UAID_70A8D3A00CD4307701_2057547840"',DirectionPropertyName="TimelineObjectiveVisualUnlocking__Direction_6D29B79B436622CAE9B108AE86105C0C")
+            bNetAddressable=True
+            bReplicates=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="FortActorMetadataComponent"
+            TemplateID="/MidMatchAssignedGameplay/Items/Environmental/BGA_MidMatchAssignedObjective_Interaction_LootCache.BGA_MidMatchAssignedObjective_Interaction_LootCache_C#3760599452"
+         End Object
+         SoundLibrary="SoundLibrary"
+         SFX_ObjectiveSpawned_loop="SFX_ObjectiveSpawned_loop"
+         NS_AssignedObjective_LocationBeam="NS_AssignedObjective_LocationBeam"
+         Hologram="Hologram"
+         NS_Aug_Container_Lightcone_01="NS_Aug_Container_Lightcone_01"
+         SFX_ObjectiveTimerActive_loop="SFX_ObjectiveTimerActive_loop"
+         TimelineObjectiveVisualUnlocking=/Script/Engine.TimelineComponent'"TimelineObjectiveVisualUnlocking"'
+         Fade out hologram=/Script/Engine.TimelineComponent'"Fade out hologram"'
+         DecayColorTimeline=/Script/Engine.TimelineComponent'"DecayColorTimeline"'
+         FortMiniMapComponent_Discoverable="FortMiniMapComponent_Discoverable"
+         FortAutoRegisterActor="FortAutoRegisterActor"
+         Widget_ProgressIndicator="Widget_ProgressIndicator"
+         InteractionObject="InteractionObject"
+         DefaultSceneRoot="DefaultSceneRoot"
+         SpawnInObjectScale=/Script/Engine.TimelineComponent'"SpawnInObjectScale"'
+         CullDistance=2800.000000
+         SavedActorGuid=000000000000000000000000A1E1783D
+         ActorTemplateID="/MidMatchAssignedGameplay/Items/Environmental/BGA_MidMatchAssignedObjective_Interaction_LootCache.BGA_MidMatchAssignedObjective_Interaction_LootCache_C#3760599452"
+         RootComponent="DefaultSceneRoot"
+         ActorLabel="BGA MidMatchAssignedObjective Interaction LootCache C"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map

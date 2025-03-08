@@ -1,0 +1,362 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C Name=BP_Device_StreamDataTrigger_C_UAID_B05CDA5C099F297801_1321514150 Archetype=/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.Default__BP_Device_StreamDataTrigger_C' ActorFolderPath=None
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=/Script/Engine.StaticMeshComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.Default__BP_Device_StreamDataTrigger_C:StaticMeshComponent0'
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype=/Script/Engine.BoxComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.Default__BP_Device_StreamDataTrigger_C:BoundingBoxComponent'
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype=/Script/Engine.StaticMeshComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.Default__BP_Device_StreamDataTrigger_C:EditorOnlyStaticMeshComponent'
+         End Object
+         Begin Object Class=/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C Name="ToyOptionsComponent" Archetype=/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:ToyOptionsComponent_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortMinigameProgressComponent Name="FortMinigameProgress" Archetype=/Script/FortniteGame.FortMinigameProgressComponent'/Game/Creative/Devices/Common/Creative_Device_Prop_Parent.Creative_Device_Prop_Parent_C:FortMinigameProgress_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C Name="EnabledComponent" Archetype=/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'/Game/Creative/Devices/Common/Creative_Device_Prop_Parent.Creative_Device_Prop_Parent_C:EnabledComponent_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C Name="VisibleInGameComponent" Archetype=/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/Game/Creative/Devices/Common/Creative_Device_Prop_Parent.Creative_Device_Prop_Parent_C:VisibleInGameComponent_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="On Receive Enabled" Archetype=/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:On Receive Enabled_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="On Receive Disabled" Archetype=/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:On Receive Disabled_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="TransmitOnBlueTeamScores" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:TransmitOnBlueTeamScores_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="TransmitOnOrangeTeamScores" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:TransmitOnOrangeTeamScores_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="TransmitOnOvertimeBegins" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:TransmitOnOvertimeBegins_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="TransmitOnMatchStart" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:TransmitOnMatchStart_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="TransmitOnMatchEnd" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:TransmitOnMatchEnd_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="TransmitOnMatchTimeThirtySeconds" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:TransmitOnMatchTimeThirtySeconds_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="TransmitOnScoreboardXOfY" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:TransmitOnScoreboardXOfY_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="TransmitOnScoreboardTimeLeft" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:TransmitOnScoreboardTimeLeft_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="TransmitOnBlueTeamScoringUpdate" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:TransmitOnBlueTeamScoringUpdate_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.CreativeEditOnlyMeshComponent Name="EditOnlyIcon" Archetype=/Script/FortniteGame.CreativeEditOnlyMeshComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:EditOnlyIcon_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="TransmitOnBlueTeamName" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:TransmitOnBlueTeamName_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="TransmitOnOrangeTeamName" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:TransmitOnOrangeTeamName_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="TransmitOnMatchTimeOneMinute" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:TransmitOnMatchTimeOneMinute_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="TransmitOnMatchTimeTenSeconds" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:TransmitOnMatchTimeTenSeconds_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="TransmitOnOrangeTeamScoringUpdate" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:TransmitOnOrangeTeamScoringUpdate_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="TransmitOnMediaStarted" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:TransmitOnMediaStarted_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="TransmitOnMediaEnded" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:TransmitOnMediaEnded_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="On Received Reset Data" Archetype=/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:On Received Reset Data_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="TransmitOnOrangeTeamWins" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:TransmitOnOrangeTeamWins_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="TransmitOnBlueTeamWins" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:TransmitOnBlueTeamWins_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="TransmitOnSeriesStart" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:TransmitOnSeriesStart_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="TransmitOnSeriesEnd" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:TransmitOnSeriesEnd_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="On Received Get Match State" Archetype=/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:On Received Get Match State_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="On Received Get Series State" Archetype=/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:On Received Get Series State_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="TransmitOnSeriesDataRequest_Series" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:TransmitOnSeriesDataRequest_Series_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="TransmitOnSeriesDataRequest_NoSeries" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:TransmitOnSeriesDataRequest_NoSeries_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="TransmitOnMatchDataRequest_Match" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:TransmitOnMatchDataRequest_Match_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="TransmitOnMatchDataRequest_NoMatch" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:TransmitOnMatchDataRequest_NoMatch_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="TransmitOnMatchDataRequest_Finale" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:TransmitOnMatchDataRequest_Finale_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="TransmitOnSeriesDataRequest_NoFinale" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:TransmitOnSeriesDataRequest_NoFinale_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayReceiverMessageComponent Name="On Received Get Finale State" Archetype=/Script/FortniteGame.FortGameplayReceiverMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:On Received Get Finale State_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="TransmitOnFinaleStart" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:TransmitOnFinaleStart_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortGameplayTriggerMessageComponent Name="TransmitOnFinaleEnd" Archetype=/Script/FortniteGame.FortGameplayTriggerMessageComponent'/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C:TransmitOnFinaleEnd_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortActorMetadataComponent Name="FortActorMetadataComponent"
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            CachedMaxDrawDistance=3079.964844
+            BodyInstance=(CollisionEnabled=QueryAndPhysics)
+            OnComponentPhysicsStateChanged=(BP_Device_StreamDataTrigger_C_UAID_B05CDA5C099F297801_1321514150.OnPhysicsStateChanged)
+            RelativeLocation=(X=6828.000000,Y=6840.000000,Z=7400.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent"
+            CachedMaxDrawDistance=3079.964844
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent"
+            CachedMaxDrawDistance=3079.964844
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="ToyOptionsComponent"
+            PlayerOptionData=(PropertyOverrides=((PropertyName="DataStreamServerResetInterval",PropertyData="0.000000"),(PropertyName="EnabledOnMinigameStart",PropertyData="True"),(PropertyName="LabelOverride",PropertyData="Streaming Data Trigger"),(PropertyName="StreamID"),(PropertyName="StreamURL")))
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="FortMinigameProgress"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="EnabledComponent"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="VisibleInGameComponent"
+            VisibleSceneComponents(0)="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="On Receive Enabled"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="On Receive Disabled"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TransmitOnBlueTeamScores"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TransmitOnOrangeTeamScores"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TransmitOnOvertimeBegins"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TransmitOnMatchStart"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TransmitOnMatchEnd"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TransmitOnMatchTimeThirtySeconds"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TransmitOnScoreboardXOfY"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TransmitOnScoreboardTimeLeft"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TransmitOnBlueTeamScoringUpdate"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="EditOnlyIcon"
+            StaticMesh=/Script/Engine.StaticMesh'"/Game/Creative/Devices/Generic/Meshes/CP_Device_Generic_Icon_01.CP_Device_Generic_Icon_01"'
+            CachedMaxDrawDistance=3079.964844
+            AttachParent="StaticMeshComponent0"
+            bAbsoluteRotation=True
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TransmitOnBlueTeamName"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TransmitOnOrangeTeamName"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TransmitOnMatchTimeOneMinute"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TransmitOnMatchTimeTenSeconds"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TransmitOnOrangeTeamScoringUpdate"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TransmitOnMediaStarted"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TransmitOnMediaEnded"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="On Received Reset Data"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TransmitOnOrangeTeamWins"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TransmitOnBlueTeamWins"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TransmitOnSeriesStart"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TransmitOnSeriesEnd"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="On Received Get Match State"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="On Received Get Series State"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TransmitOnSeriesDataRequest_Series"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TransmitOnSeriesDataRequest_NoSeries"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TransmitOnMatchDataRequest_Match"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TransmitOnMatchDataRequest_NoMatch"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TransmitOnMatchDataRequest_Finale"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TransmitOnSeriesDataRequest_NoFinale"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="On Received Get Finale State"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TransmitOnFinaleStart"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TransmitOnFinaleEnd"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="FortActorMetadataComponent"
+            TemplateID="/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C#3402321227"
+         End Object
+         TransmitOnFinaleEnd="TransmitOnFinaleEnd"
+         TransmitOnFinaleStart="TransmitOnFinaleStart"
+         On Received Get Finale State="On Received Get Finale State"
+         TransmitOnSeriesDataRequest_NoFinale="TransmitOnSeriesDataRequest_NoFinale"
+         TransmitOnMatchDataRequest_Finale="TransmitOnMatchDataRequest_Finale"
+         TransmitOnMatchDataRequest_NoMatch="TransmitOnMatchDataRequest_NoMatch"
+         TransmitOnMatchDataRequest_Match="TransmitOnMatchDataRequest_Match"
+         TransmitOnSeriesDataRequest_NoSeries="TransmitOnSeriesDataRequest_NoSeries"
+         TransmitOnSeriesDataRequest_Series="TransmitOnSeriesDataRequest_Series"
+         On Received Get Series State="On Received Get Series State"
+         On Received Get Match State="On Received Get Match State"
+         TransmitOnSeriesEnd="TransmitOnSeriesEnd"
+         TransmitOnSeriesStart="TransmitOnSeriesStart"
+         TransmitOnBlueTeamWins="TransmitOnBlueTeamWins"
+         TransmitOnOrangeTeamWins="TransmitOnOrangeTeamWins"
+         On Received Reset Data="On Received Reset Data"
+         TransmitOnMediaEnded="TransmitOnMediaEnded"
+         TransmitOnMediaStarted="TransmitOnMediaStarted"
+         TransmitOnOrangeTeamScoringUpdate="TransmitOnOrangeTeamScoringUpdate"
+         TransmitOnMatchTimeTenSeconds="TransmitOnMatchTimeTenSeconds"
+         TransmitOnMatchTimeOneMinute="TransmitOnMatchTimeOneMinute"
+         TransmitOnOrangeTeamName="TransmitOnOrangeTeamName"
+         TransmitOnBlueTeamName="TransmitOnBlueTeamName"
+         EditOnlyIcon="EditOnlyIcon"
+         TransmitOnBlueTeamScoringUpdate="TransmitOnBlueTeamScoringUpdate"
+         TransmitOnScoreboardTimeLeft="TransmitOnScoreboardTimeLeft"
+         TransmitOnScoreboardXOfY="TransmitOnScoreboardXOfY"
+         TransmitOnMatchTimeThirtySeconds="TransmitOnMatchTimeThirtySeconds"
+         TransmitOnMatchEnd="TransmitOnMatchEnd"
+         TransmitOnMatchStart="TransmitOnMatchStart"
+         TransmitOnOvertimeBegins="TransmitOnOvertimeBegins"
+         TransmitOnOrangeTeamScores="TransmitOnOrangeTeamScores"
+         TransmitOnBlueTeamScores="TransmitOnBlueTeamScores"
+         On Receive Disabled="On Receive Disabled"
+         On Receive Enabled="On Receive Enabled"
+         VisibleInGameComponent="VisibleInGameComponent"
+         EnabledComponent="EnabledComponent"
+         FortMinigameProgress="FortMinigameProgress"
+         ToyOptionsComponent="ToyOptionsComponent"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=3079.964844
+         SavedActorGuid=0BD9479044D4FA0A1DF4679C12C22CBF
+         ActorTemplateID="/CRD_DataChannelTrigger/BP_Device_StreamDataTrigger.BP_Device_StreamDataTrigger_C#3402321227"
+         PlaysetPackagePathName="/CRD_DataChannelTrigger/SetupAssets/PID_CP_Device_StreamingDataTrigger"
+         LabelOverride="Streaming Data Trigger"
+         NetDormancy=DORM_DormantAll
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Streaming Data Trigger"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map

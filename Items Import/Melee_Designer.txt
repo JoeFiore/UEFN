@@ -1,0 +1,19 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/CRD_Melee/Device_MeleeDesigner.Device_MeleeDesigner_C Name=Device_MeleeDesigner_C_UAID_04D9F57D3047C97201_1478958922 Archetype=/CRD_Melee/Device_MeleeDesigner.Device_MeleeDesigner_C'/CRD_Melee/Device_MeleeDesigner.Default__Device_MeleeDesigner_C' ActorFolderPath=None
+         Begin Object Class=/Script/Engine.SceneComponent Name="DefaultSceneRoot" Archetype=/Script/Engine.SceneComponent'/CRD_Melee/Device_MeleeDesigner.Device_MeleeDesigner_C:DefaultSceneRoot_GEN_VARIABLE'
+         End Object
+         Begin Object Name="DefaultSceneRoot"
+            RelativeLocation=(X=-15422.382771,Y=2111.983570,Z=3430.101971)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         DefaultSceneRoot="DefaultSceneRoot"
+         RootComponent="DefaultSceneRoot"
+         ActorLabel="Melee Designer"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map

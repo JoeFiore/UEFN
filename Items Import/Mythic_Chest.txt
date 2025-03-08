@@ -1,0 +1,235 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Creative_Tiered_Chest_C Name=Creative_Tiered_Chest_C_UAID_98EECBF0E484667801_1688787858 Archetype=/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Creative_Tiered_Chest_C'/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Default__Creative_Tiered_Chest_C' ActorFolderPath=None
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Default__Creative_Tiered_Chest_C:StaticMeshComponent0'
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype=/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Default__Creative_Tiered_Chest_C:BoundingBoxComponent'
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype=/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Default__Creative_Tiered_Chest_C:EditorOnlyStaticMeshComponent'
+         End Object
+         Begin Object Class=/Script/Engine.AudioComponent Name="Chest_Ambient_Sound" Archetype=/Script/Engine.AudioComponent'/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Creative_Tiered_Chest_C:AudioComponent_1'
+         End Object
+         Begin Object Class=/Script/Engine.PointLightComponent Name="TrasureLight" Archetype=/Script/Engine.PointLightComponent'/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Creative_Tiered_Chest_C:TrasureLight_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.CreativeIslandResourceComponent Name="CreativeIslandResource" Archetype=/Script/FortniteGame.CreativeIslandResourceComponent'/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Creative_Tiered_Chest_C:CreativeIslandResource_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/Niagara.NiagaraComponent Name="NS_Athena_Loot_Chest_Aura" Archetype=/Script/Niagara.NiagaraComponent'/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Creative_Tiered_Chest_C:NS_Athena_Loot_Chest_Aura_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="MobileOnInteractTL"
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="MobileSelectedTL"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortAbilitySystemComponent Name="AbilitySystemComponent"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortActorMetadataComponent Name="FortActorMetadataComponent"
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            OverrideMaterials(0)=/Script/Engine.MaterialInstanceDynamic'"/Engine/Transient.MaterialInstanceDynamic_33"'
+            LDMaxDrawDistance=0.000000
+            CachedMaxDrawDistance=2800.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            OnComponentPhysicsStateChanged=(Creative_Tiered_Chest_C_UAID_98EECBF0E484667801_1688787858.OnPhysicsStateChanged)
+            RelativeLocation=(X=801.581797,Y=-178.302323,Z=102.849457)
+         End Object
+         Begin Object Name="BoundingBoxComponent"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="Chest_Ambient_Sound"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TrasureLight"
+            MaxDrawDistance=2800.000000
+            MaxDistanceFadeRange=2048.000000
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="CreativeIslandResource"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="NS_Athena_Loot_Chest_Aura"
+            OverrideParameters=()
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="MobileOnInteractTL"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=0.250000,InterpFloats=((FloatCurve=/Script/Engine.CurveFloat'"/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Creative_Tiered_Chest_C:CurveFloat_0"',TrackName="LERP",FloatPropertyName="MobileOnInteractTL_LERP_0EDB17994610CCA511D017A7FCB5FD6E")),TimelinePostUpdateFunc=Creative_Tiered_Chest_C_UAID_98EECBF0E484667801_1688787858.MobileOnInteractTL__UpdateFunc,TimelineFinishedFunc=Creative_Tiered_Chest_C_UAID_98EECBF0E484667801_1688787858.MobileOnInteractTL__FinishedFunc,PropertySetObject=/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Creative_Tiered_Chest_C'"Creative_Tiered_Chest_C_UAID_98EECBF0E484667801_1688787858"',DirectionPropertyName="MobileOnInteractTL__Direction_0EDB17994610CCA511D017A7FCB5FD6E")
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="MobileSelectedTL"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=0.210000,InterpFloats=((FloatCurve=/Script/Engine.CurveFloat'"/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Creative_Tiered_Chest_C:CurveFloat_0_1"',TrackName="LerpObject",FloatPropertyName="MobileSelectedTL_LerpObject_3B3245644A941BB300D1A3B017FAF4AC"),(FloatCurve=/Script/Engine.CurveFloat'"/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Creative_Tiered_Chest_C:CurveFloat_1"',TrackName="LerpInteactoIcon",FloatPropertyName="MobileSelectedTL_LerpInteactoIcon_3B3245644A941BB300D1A3B017FAF4AC")),TimelinePostUpdateFunc=Creative_Tiered_Chest_C_UAID_98EECBF0E484667801_1688787858.MobileSelectedTL__UpdateFunc,TimelineFinishedFunc=Creative_Tiered_Chest_C_UAID_98EECBF0E484667801_1688787858.MobileSelectedTL__FinishedFunc,PropertySetObject=/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Creative_Tiered_Chest_C'"Creative_Tiered_Chest_C_UAID_98EECBF0E484667801_1688787858"',DirectionPropertyName="MobileSelectedTL__Direction_3B3245644A941BB300D1A3B017FAF4AC")
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="AbilitySystemComponent"
+            ActiveGameplayCues=(Owner=/Script/FortniteGame.FortAbilitySystemComponent'"AbilitySystemComponent"')
+            MinimalReplicationGameplayCues=(Owner=/Script/FortniteGame.FortAbilitySystemComponent'"AbilitySystemComponent"')
+            bAutoActivate=False
+         End Object
+         Begin Object Name="FortActorMetadataComponent"
+            TemplateID="/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Creative_Tiered_Chest_C#2378725981"
+         End Object
+         NS_Athena_Loot_Chest_Aura="NS_Athena_Loot_Chest_Aura"
+         CreativeIslandResource="CreativeIslandResource"
+         TrasureLight="TrasureLight"
+         Chest_Ambient_Sound="Chest_Ambient_Sound"
+         MobileSelectedTL=/Script/Engine.TimelineComponent'"MobileSelectedTL"'
+         MobileOnInteractTL=/Script/Engine.TimelineComponent'"MobileOnInteractTL"'
+         SpawnItems(0)=(ItemPrimaryAssetId="Weapon:WID_Assault_RedDotBurst_Athena_UR_Slone",Quantity=1)
+         SpawnItems(1)=(ItemPrimaryAssetId="Weapon:WID_Assault_RedDotAR_Athena_UR_TheFoundation",Quantity=1)
+         SpawnItems(2)=(ItemPrimaryAssetId="Weapon:WID_SMG_CoreSMG_Athena_UR",Quantity=1)
+         SpawnItems(3)=(ItemPrimaryAssetId="Weapon:WID_Assault_RedDotAR_Athena_UR",Quantity=1)
+         SpawnItems(4)=(ItemPrimaryAssetId="Weapon:WID_Assault_Surgical_Thermal_Athena_UR_ThunderMeow",Quantity=1)
+         SpawnItems(5)=(ItemPrimaryAssetId="Weapon:WID_PowerUp_Scythe_UR",Quantity=1)
+         SpawnItems(6)=(ItemPrimaryAssetId="Weapon:WID_Athena_Bucket_Nice",Quantity=1)
+         SpawnItems(7)=(ItemPrimaryAssetId="Weapon:WID_Athena_BottomlessChugJug",Quantity=1)
+         SpawnItems(8)=(ItemPrimaryAssetId="Weapon:WID_Athena_WitchBroom",Quantity=1)
+         SpawnItems(9)=(ItemPrimaryAssetId="Weapon:WID_Assault_PastaRipper_Athena_MMObj",Quantity=1)
+         SpawnItems(10)=(ItemPrimaryAssetId="Weapon:WID_Boss_Freaky",Quantity=1)
+         SpawnItems(11)=(ItemPrimaryAssetId="Weapon:WID_JunkGun_Athena_Boss",Quantity=1)
+         SpawnItems(12)=(ItemPrimaryAssetId="Weapon:WID_Athena_GoldenTruffle",Quantity=1)
+         SpawnItems(13)=(ItemPrimaryAssetId="Weapon:WID_Assault_LMG_Powerup_Athena_Boss",Quantity=1)
+         SpawnItems(14)=(ItemPrimaryAssetId="Weapon:WID_AshtonPack_Indigo",Quantity=1)
+         SpawnItems(15)=(ItemPrimaryAssetId="Weapon:WID_Sniper_Cosmos_Athena_VR",Quantity=1)
+         ReplicatedLootTier=0
+         TimeOfDayControlledLightDataArray(0)=(LightComponent="TrasureLight",Position=(X=801.581828,Y=-113.830025,Z=202.282990),InitialIntensity=1700.000000)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=2800.000000
+         DataVersion=1
+         ComponentTypesWhitelistedForReplication(0)=/Script/CoreUObject.Class'"/Script/GeometryCollectionEngine.GeometryCollectionComponent"'
+         SavedActorGuid=9D8F60B640252B7BDE705CA8EFAD7759
+         ActorTemplateID="/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Creative_Tiered_Chest_C#2378725981"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Creative_Tiered_Chest_C2147482645"
+      End Actor
+      Begin Actor Class=/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Creative_Tiered_Chest_C Name=Creative_Tiered_Chest_C_UAID_98EECBF0E484677801_1180271038 Archetype=/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Creative_Tiered_Chest_C'/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Default__Creative_Tiered_Chest_C' ActorFolderPath=None
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="StaticMeshComponent0" Archetype=/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Default__Creative_Tiered_Chest_C:StaticMeshComponent0'
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype=/Script/Engine.BoxComponent'/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Default__Creative_Tiered_Chest_C:BoundingBoxComponent'
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype=/Script/Engine.StaticMeshComponent'/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Default__Creative_Tiered_Chest_C:EditorOnlyStaticMeshComponent'
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortAbilitySystemComponent Name="AbilitySystemComponent"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortActorMetadataComponent Name="FortActorMetadataComponent"
+         End Object
+         Begin Object Class=/Script/Engine.AudioComponent Name="Chest_Ambient_Sound" Archetype=/Script/Engine.AudioComponent'/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Creative_Tiered_Chest_C:AudioComponent_1'
+         End Object
+         Begin Object Class=/Script/Engine.PointLightComponent Name="TrasureLight" Archetype=/Script/Engine.PointLightComponent'/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Creative_Tiered_Chest_C:TrasureLight_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/FortniteGame.CreativeIslandResourceComponent Name="CreativeIslandResource" Archetype=/Script/FortniteGame.CreativeIslandResourceComponent'/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Creative_Tiered_Chest_C:CreativeIslandResource_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/Niagara.NiagaraComponent Name="NS_Athena_Loot_Chest_Aura" Archetype=/Script/Niagara.NiagaraComponent'/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Creative_Tiered_Chest_C:NS_Athena_Loot_Chest_Aura_GEN_VARIABLE'
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="MobileOnInteractTL"
+         End Object
+         Begin Object Class=/Script/Engine.TimelineComponent Name="MobileSelectedTL"
+         End Object
+         Begin Object Name="StaticMeshComponent0"
+            OverrideMaterials(0)=/Script/Engine.MaterialInstanceDynamic'"/Engine/Transient.MaterialInstanceDynamic_33"'
+            LDMaxDrawDistance=0.000000
+            CachedMaxDrawDistance=2800.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            OnComponentPhysicsStateChanged=(Creative_Tiered_Chest_C_UAID_98EECBF0E484677801_1180271038.OnPhysicsStateChanged)
+            RelativeLocation=(X=973.581797,Y=-178.302323,Z=102.849457)
+         End Object
+         Begin Object Name="BoundingBoxComponent"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="AbilitySystemComponent"
+            ActiveGameplayCues=(Owner=/Script/FortniteGame.FortAbilitySystemComponent'"AbilitySystemComponent"')
+            MinimalReplicationGameplayCues=(Owner=/Script/FortniteGame.FortAbilitySystemComponent'"AbilitySystemComponent"')
+            bAutoActivate=False
+         End Object
+         Begin Object Name="FortActorMetadataComponent"
+            TemplateID="/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Creative_Tiered_Chest_C#2378725981"
+         End Object
+         Begin Object Name="Chest_Ambient_Sound"
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="TrasureLight"
+            MaxDrawDistance=2800.000000
+            MaxDistanceFadeRange=2048.000000
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="CreativeIslandResource"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="NS_Athena_Loot_Chest_Aura"
+            OverrideParameters=()
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="MobileOnInteractTL"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=0.250000,InterpFloats=((FloatCurve=/Script/Engine.CurveFloat'"/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Creative_Tiered_Chest_C:CurveFloat_0"',TrackName="LERP",FloatPropertyName="MobileOnInteractTL_LERP_0EDB17994610CCA511D017A7FCB5FD6E")),TimelinePostUpdateFunc=Creative_Tiered_Chest_C_UAID_98EECBF0E484677801_1180271038.MobileOnInteractTL__UpdateFunc,TimelineFinishedFunc=Creative_Tiered_Chest_C_UAID_98EECBF0E484677801_1180271038.MobileOnInteractTL__FinishedFunc,PropertySetObject=/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Creative_Tiered_Chest_C'"Creative_Tiered_Chest_C_UAID_98EECBF0E484677801_1180271038"',DirectionPropertyName="MobileOnInteractTL__Direction_0EDB17994610CCA511D017A7FCB5FD6E")
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         Begin Object Name="MobileSelectedTL"
+            TheTimeline=(LengthMode=TL_TimelineLength,Length=0.210000,InterpFloats=((FloatCurve=/Script/Engine.CurveFloat'"/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Creative_Tiered_Chest_C:CurveFloat_0_1"',TrackName="LerpObject",FloatPropertyName="MobileSelectedTL_LerpObject_3B3245644A941BB300D1A3B017FAF4AC"),(FloatCurve=/Script/Engine.CurveFloat'"/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Creative_Tiered_Chest_C:CurveFloat_1"',TrackName="LerpInteactoIcon",FloatPropertyName="MobileSelectedTL_LerpInteactoIcon_3B3245644A941BB300D1A3B017FAF4AC")),TimelinePostUpdateFunc=Creative_Tiered_Chest_C_UAID_98EECBF0E484677801_1180271038.MobileSelectedTL__UpdateFunc,TimelineFinishedFunc=Creative_Tiered_Chest_C_UAID_98EECBF0E484677801_1180271038.MobileSelectedTL__FinishedFunc,PropertySetObject=/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Creative_Tiered_Chest_C'"Creative_Tiered_Chest_C_UAID_98EECBF0E484677801_1180271038"',DirectionPropertyName="MobileSelectedTL__Direction_3B3245644A941BB300D1A3B017FAF4AC")
+            bNetAddressable=True
+            CreationMethod=UserConstructionScript
+         End Object
+         NS_Athena_Loot_Chest_Aura="NS_Athena_Loot_Chest_Aura"
+         CreativeIslandResource="CreativeIslandResource"
+         TrasureLight="TrasureLight"
+         Chest_Ambient_Sound="Chest_Ambient_Sound"
+         MobileSelectedTL=/Script/Engine.TimelineComponent'"MobileSelectedTL"'
+         MobileOnInteractTL=/Script/Engine.TimelineComponent'"MobileOnInteractTL"'
+         SpawnItems(0)=(ItemPrimaryAssetId="Weapon:WID_NyxGlass",Quantity=1)
+         SpawnItems(1)=(ItemPrimaryAssetId="Weapon:WID_Launcher_FeyCrab",Quantity=1)
+         SpawnItems(2)=(ItemPrimaryAssetId="Weapon:WID_AshtonPack_Hippo",Quantity=1)
+         SpawnItems(3)=(ItemPrimaryAssetId="Weapon:WID_Assault_Radical_CoreAR_Athena_UR_CloneBoss",Quantity=1)
+         SpawnItems(4)=(ItemPrimaryAssetId="Weapon:WID_Lotus_Mustache",Quantity=1)
+         SpawnItems(5)=(ItemPrimaryAssetId="Weapon:WID_Sniper_Cosmos_Athena_VR",Quantity=1)
+         SpawnItems(6)=(ItemPrimaryAssetId="Weapon:WID_Cosmos_Jelly",Quantity=1)
+         SpawnItems(7)=(ItemPrimaryAssetId="Weapon:WID_Galileo_Bun_Athena_UC",Quantity=1)
+         ReplicatedLootTier=0
+         TimeOfDayControlledLightDataArray(0)=(LightComponent="TrasureLight",Position=(X=973.581828,Y=-113.830025,Z=202.282990),InitialIntensity=1700.000000)
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=2800.000000
+         ComponentTypesWhitelistedForReplication(0)=/Script/CoreUObject.Class'"/Script/GeometryCollectionEngine.GeometryCollectionComponent"'
+         SavedActorGuid=29259E1141166B3D7583FCB1038277F9
+         ActorTemplateID="/Game/Building/ActorBlueprints/Containers/Creative_Tiered_Chest.Creative_Tiered_Chest_C#2378725981"
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Creative_Tiered_Chest_C2147482656"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map
