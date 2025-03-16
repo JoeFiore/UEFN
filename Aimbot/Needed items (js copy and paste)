@@ -1,0 +1,173 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/CRD_CustomControls/Device_CustomControls_ThirdPerson.Device_CustomControls_ThirdPerson_C Name=Device_CustomControls_ThirdPerson_C_UAID_D8BBC19635387A1002_2010897952 Archetype="/CRD_CustomControls/Device_CustomControls_ThirdPerson.Device_CustomControls_ThirdPerson_C'/CRD_CustomControls/Device_CustomControls_ThirdPerson.Default__Device_CustomControls_ThirdPerson_C'" ActorFolderPath="None" ExportPath="/CRD_CustomControls/Device_CustomControls_ThirdPerson.Device_CustomControls_ThirdPerson_C'/OneTrue1v1/OneTrueArmy1.OneTrueArmy1:PersistentLevel.Device_CustomControls_ThirdPerson_C_UAID_D8BBC19635387A1002_2010897952'"
+         Begin Object Class=/Script/FortniteGame.BaseBuildingStaticMeshComponent Name="StaticMeshComponent0" Archetype="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/CRD_CustomControls/Device_CustomControls_ThirdPerson.Default__Device_CustomControls_ThirdPerson_C:StaticMeshComponent0'" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/OneTrue1v1/OneTrueArmy1.OneTrueArmy1:PersistentLevel.Device_CustomControls_ThirdPerson_C_UAID_D8BBC19635387A1002_2010897952.StaticMeshComponent0'"
+         End Object
+         Begin Object Class=/Script/Engine.BoxComponent Name="BoundingBoxComponent" Archetype="/Script/Engine.BoxComponent'/CRD_CustomControls/Device_CustomControls_ThirdPerson.Default__Device_CustomControls_ThirdPerson_C:BoundingBoxComponent'" ExportPath="/Script/Engine.BoxComponent'/OneTrue1v1/OneTrueArmy1.OneTrueArmy1:PersistentLevel.Device_CustomControls_ThirdPerson_C_UAID_D8BBC19635387A1002_2010897952.BoundingBoxComponent'"
+         End Object
+         Begin Object Class=/Script/Engine.StaticMeshComponent Name="EditorOnlyStaticMeshComponent" Archetype="/Script/Engine.StaticMeshComponent'/CRD_CustomControls/Device_CustomControls_ThirdPerson.Default__Device_CustomControls_ThirdPerson_C:EditorOnlyStaticMeshComponent'" ExportPath="/Script/Engine.StaticMeshComponent'/OneTrue1v1/OneTrueArmy1.OneTrueArmy1:PersistentLevel.Device_CustomControls_ThirdPerson_C_UAID_D8BBC19635387A1002_2010897952.EditorOnlyStaticMeshComponent'"
+         End Object
+         Begin Object Class=/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C Name="ToyOptionsComponent" Archetype="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/CRD_CustomControls/Device_CustomControls_ThirdPerson.Device_CustomControls_ThirdPerson_C:ToyOptionsComponent_GEN_VARIABLE'" ExportPath="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/OneTrue1v1/OneTrueArmy1.OneTrueArmy1:PersistentLevel.Device_CustomControls_ThirdPerson_C_UAID_D8BBC19635387A1002_2010897952.ToyOptionsComponent'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortMinigameProgressComponent Name="FortMinigameProgress" Archetype="/Script/FortniteGame.FortMinigameProgressComponent'/Game/Creative/Devices/Common/Creative_Device_Prop_Parent.Creative_Device_Prop_Parent_C:FortMinigameProgress_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortMinigameProgressComponent'/OneTrue1v1/OneTrueArmy1.OneTrueArmy1:PersistentLevel.Device_CustomControls_ThirdPerson_C_UAID_D8BBC19635387A1002_2010897952.FortMinigameProgress'"
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C Name="EnabledComponent" Archetype="/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'/Game/Creative/Devices/Common/Creative_Device_Prop_Parent.Creative_Device_Prop_Parent_C:EnabledComponent_GEN_VARIABLE'" ExportPath="/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'/OneTrue1v1/OneTrueArmy1.OneTrueArmy1:PersistentLevel.Device_CustomControls_ThirdPerson_C_UAID_D8BBC19635387A1002_2010897952.EnabledComponent'"
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C Name="VisibleInGameComponent" Archetype="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/Game/Creative/Devices/Common/Creative_Device_Prop_Parent.Creative_Device_Prop_Parent_C:VisibleInGameComponent_GEN_VARIABLE'" ExportPath="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/OneTrue1v1/OneTrueArmy1.OneTrueArmy1:PersistentLevel.Device_CustomControls_ThirdPerson_C_UAID_D8BBC19635387A1002_2010897952.VisibleInGameComponent'"
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/Creative_UseRestriction_Component.Creative_UseRestriction_Component_C Name="Creative_UseRestriction_Affects_Component" Archetype="/Game/Creative/Devices/Common/Components/Creative_UseRestriction_Component.Creative_UseRestriction_Component_C'/CRD_CustomControls/Device_CustomControls_Parent.Device_CustomControls_Parent_C:Creative_UseRestriction_Affects_Component_GEN_VARIABLE'" ExportPath="/Game/Creative/Devices/Common/Components/Creative_UseRestriction_Component.Creative_UseRestriction_Component_C'/OneTrue1v1/OneTrueArmy1.OneTrueArmy1:PersistentLevel.Device_CustomControls_ThirdPerson_C_UAID_D8BBC19635387A1002_2010897952.Creative_UseRestriction_Affects_Component'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.CreativeEditOnlyMeshComponent Name="CreativeEditOnlyMesh" Archetype="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/CRD_CustomControls/Device_CustomControls_ThirdPerson.Device_CustomControls_ThirdPerson_C:CreativeEditOnlyMesh_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/OneTrue1v1/OneTrueArmy1.OneTrueArmy1:PersistentLevel.Device_CustomControls_ThirdPerson_C_UAID_D8BBC19635387A1002_2010897952.CreativeEditOnlyMesh'"
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/CreativeEditOnlyBase.CreativeEditOnlyBase_C Name="CreativeEditOnlyBase" Archetype="/Game/Creative/Devices/Common/Components/CreativeEditOnlyBase.CreativeEditOnlyBase_C'/CRD_CustomControls/Device_CustomControls_Parent.Device_CustomControls_Parent_C:CreativeEditOnlyBase_GEN_VARIABLE'" ExportPath="/Game/Creative/Devices/Common/Components/CreativeEditOnlyBase.CreativeEditOnlyBase_C'/OneTrue1v1/OneTrueArmy1.OneTrueArmy1:PersistentLevel.Device_CustomControls_ThirdPerson_C_UAID_D8BBC19635387A1002_2010897952.CreativeEditOnlyBase'"
+         End Object
+         Begin Object Class=/Game/Creative/Devices/Common/Components/CreativeEditOnlyBeam.CreativeEditOnlyBeam_C Name="CreativeEditOnlyBeam" Archetype="/Game/Creative/Devices/Common/Components/CreativeEditOnlyBeam.CreativeEditOnlyBeam_C'/CRD_CustomControls/Device_CustomControls_Parent.Device_CustomControls_Parent_C:CreativeEditOnlyBeam_GEN_VARIABLE'" ExportPath="/Game/Creative/Devices/Common/Components/CreativeEditOnlyBeam.CreativeEditOnlyBeam_C'/OneTrue1v1/OneTrueArmy1.OneTrueArmy1:PersistentLevel.Device_CustomControls_ThirdPerson_C_UAID_D8BBC19635387A1002_2010897952.CreativeEditOnlyBeam'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.FortCreativeDeviceButtonComponent Name="OnCreativeButtonPreview" Archetype="/Script/FortniteGame.FortCreativeDeviceButtonComponent'/CRD_CustomControls/Device_CustomControls_Parent.Device_CustomControls_Parent_C:OnCreativeButtonPreview_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.FortCreativeDeviceButtonComponent'/OneTrue1v1/OneTrueArmy1.OneTrueArmy1:PersistentLevel.Device_CustomControls_ThirdPerson_C_UAID_D8BBC19635387A1002_2010897952.OnCreativeButtonPreview'"
+         End Object
+         Begin Object Class=/Script/Engine.SceneComponent Name="RotationIndicatorPivot" Archetype="/Script/Engine.SceneComponent'/CRD_CustomControls/Device_CustomControls_ThirdPerson.Device_CustomControls_ThirdPerson_C:RotationIndicatorPivot_GEN_VARIABLE'" ExportPath="/Script/Engine.SceneComponent'/OneTrue1v1/OneTrueArmy1.OneTrueArmy1:PersistentLevel.Device_CustomControls_ThirdPerson_C_UAID_D8BBC19635387A1002_2010897952.RotationIndicatorPivot'"
+         End Object
+         Begin Object Class=/Script/FortniteGame.CreativeEditOnlyMeshComponent Name="RotationIndicator" Archetype="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/CRD_CustomControls/Device_CustomControls_ThirdPerson.Device_CustomControls_ThirdPerson_C:RotationIndicator_GEN_VARIABLE'" ExportPath="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/OneTrue1v1/OneTrueArmy1.OneTrueArmy1:PersistentLevel.Device_CustomControls_ThirdPerson_C_UAID_D8BBC19635387A1002_2010897952.RotationIndicator'"
+         End Object
+         Begin Object Name="StaticMeshComponent0" ExportPath="/Script/FortniteGame.BaseBuildingStaticMeshComponent'/OneTrue1v1/OneTrueArmy1.OneTrueArmy1:PersistentLevel.Device_CustomControls_ThirdPerson_C_UAID_D8BBC19635387A1002_2010897952.StaticMeshComponent0'"
+            CachedMaxDrawDistance=2800.000000
+            RelativeLocation=(X=-376.722830,Y=-695.253601,Z=87.219573)
+            RelativeRotation=(Pitch=0.000000,Yaw=89.999999,Roll=0.000000)
+         End Object
+         Begin Object Name="BoundingBoxComponent" ExportPath="/Script/Engine.BoxComponent'/OneTrue1v1/OneTrueArmy1.OneTrueArmy1:PersistentLevel.Device_CustomControls_ThirdPerson_C_UAID_D8BBC19635387A1002_2010897952.BoundingBoxComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="EditorOnlyStaticMeshComponent" ExportPath="/Script/Engine.StaticMeshComponent'/OneTrue1v1/OneTrueArmy1.OneTrueArmy1:PersistentLevel.Device_CustomControls_ThirdPerson_C_UAID_D8BBC19635387A1002_2010897952.EditorOnlyStaticMeshComponent'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+         End Object
+         Begin Object Name="ToyOptionsComponent" ExportPath="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'/OneTrue1v1/OneTrueArmy1.OneTrueArmy1:PersistentLevel.Device_CustomControls_ThirdPerson_C_UAID_D8BBC19635387A1002_2010897952.ToyOptionsComponent'"
+            PlayerOptionData=(PropertyOverrides=((PropertyName="AddToPlayersOnStart",PropertyData="False"),(PropertyName="AffectsClass",PropertyData="(ClassType=Any,ClassSlot=1)"),(PropertyName="AffectsTeam",PropertyData="(TeamType=Any,TeamIndex=1)"),(PropertyName="AimingMovementSpeedMultiplier",PropertyData="1.000000"),(PropertyName="AutoFireOnController",PropertyData="False"),(PropertyName="BaseWeightCreatures",PropertyData="0.500000"),(PropertyName="BaseWeightPlayers",PropertyData="1.000000"),(PropertyName="BaseWeightVehicles",PropertyData="0.300000"),(PropertyName="EnabledDuringPhase",PropertyData="Always"),(PropertyName="FacingDirection",PropertyData="Movement"),(PropertyName="FixedFacingAngle",PropertyData="0.000000"),(PropertyName="InvertClass",PropertyData="False"),(PropertyName="InvertTeam",PropertyData="False"),(PropertyName="LabelOverride",PropertyData="Control: Third Person"),(PropertyName="MovementSpeedMultiplier",PropertyData="1.000000"),(PropertyName="Priority",PropertyData="5000.000000"),(PropertyName="RangedTargetingAngle",PropertyData="90.000000"),(PropertyName="RangedTargetingDistance",PropertyData="10000.000000"),(PropertyName="RemoveOnElimination",PropertyData="True"),(PropertyName="RequireTargetLineofSight",PropertyData="False"),(PropertyName="ScaleWeightByAngle",PropertyData="1.000000"),(PropertyName="ScaleWeightByDistance",PropertyData="0.500000"),(PropertyName="ShootingMovementSpeedMultiplier",PropertyData="1.000000"),(PropertyName="TargetableDeviceInEditMode",PropertyData="True"),(PropertyName="TargetingAngleWhenAiming",PropertyData="180.000000"),(PropertyName="TargetingDistanceWhenAiming",PropertyData="10000.000000"),(PropertyName="TargetingLockOn",PropertyData="Always"),(PropertyName="TargetRetentionDuration",PropertyData="1.500000"),(PropertyName="TurnSpeedMultiplier",PropertyData="0.000000"),(PropertyName="TurnSpeedMultiplierWhenAiming",PropertyData="1.000000"),(PropertyName="TurnSpeedMultiplierWhenShooting",PropertyData="1.000000"),(PropertyName="TurnSpeedMultiplierWhenSprinting",PropertyData="1.000000"),(PropertyName="TwinStickMouseAimMode",PropertyData="TargetCursor")))
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="FortMinigameProgress" ExportPath="/Script/FortniteGame.FortMinigameProgressComponent'/OneTrue1v1/OneTrueArmy1.OneTrueArmy1:PersistentLevel.Device_CustomControls_ThirdPerson_C_UAID_D8BBC19635387A1002_2010897952.FortMinigameProgress'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="EnabledComponent" ExportPath="/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'/OneTrue1v1/OneTrueArmy1.OneTrueArmy1:PersistentLevel.Device_CustomControls_ThirdPerson_C_UAID_D8BBC19635387A1002_2010897952.EnabledComponent'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="VisibleInGameComponent" ExportPath="/Game/Creative/Devices/Common/Components/Creative_VisibleInGame_Component.Creative_VisibleInGame_Component_C'/OneTrue1v1/OneTrueArmy1.OneTrueArmy1:PersistentLevel.Device_CustomControls_ThirdPerson_C_UAID_D8BBC19635387A1002_2010897952.VisibleInGameComponent'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="Creative_UseRestriction_Affects_Component" ExportPath="/Game/Creative/Devices/Common/Components/Creative_UseRestriction_Component.Creative_UseRestriction_Component_C'/OneTrue1v1/OneTrueArmy1.OneTrueArmy1:PersistentLevel.Device_CustomControls_ThirdPerson_C_UAID_D8BBC19635387A1002_2010897952.Creative_UseRestriction_Affects_Component'"
+            EnabledComponent="/Game/Creative/Devices/Common/Components/Creative_Enabled_Component.Creative_Enabled_Component_C'TRASH_Creative_Enabled_Component_C_0'"
+            ToyOptions="/Game/Items/Traps/Blueprints/Toys/ToyOptionsComponent.ToyOptionsComponent_C'TRASH_ToyOptionsComponent_C_0'"
+            RequiredTeam=-5
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="CreativeEditOnlyMesh" ExportPath="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/OneTrue1v1/OneTrueArmy1.OneTrueArmy1:PersistentLevel.Device_CustomControls_ThirdPerson_C_UAID_D8BBC19635387A1002_2010897952.CreativeEditOnlyMesh'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Creative/Devices/Generic/Meshes/CP_Device_Generic_Icon_01.CP_Device_Generic_Icon_01'"
+            OverrideMaterials(0)="/Script/Engine.MaterialInstanceConstant'/Game/Creative/Devices/CustomControl/Materials/MI_CP_Device_CustomControlThirdPerson_Placed_01.MI_CP_Device_CustomControlThirdPerson_Placed_01'"
+            CachedMaxDrawDistance=2800.000000
+            AttachParent="StaticMeshComponent0"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="CreativeEditOnlyBase" ExportPath="/Game/Creative/Devices/Common/Components/CreativeEditOnlyBase.CreativeEditOnlyBase_C'/OneTrue1v1/OneTrueArmy1.OneTrueArmy1:PersistentLevel.Device_CustomControls_ThirdPerson_C_UAID_D8BBC19635387A1002_2010897952.CreativeEditOnlyBase'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Creative/Devices/Generic/Meshes/CP_Device_GenericBase_01.CP_Device_GenericBase_01'"
+            CachedMaxDrawDistance=2800.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            AttachParent="CreativeEditOnlyMesh"
+            RelativeLocation=(X=0.000000,Y=0.000000,Z=-87.219572)
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="CreativeEditOnlyBeam" ExportPath="/Game/Creative/Devices/Common/Components/CreativeEditOnlyBeam.CreativeEditOnlyBeam_C'/OneTrue1v1/OneTrueArmy1.OneTrueArmy1:PersistentLevel.Device_CustomControls_ThirdPerson_C_UAID_D8BBC19635387A1002_2010897952.CreativeEditOnlyBeam'"
+            Base="CreativeEditOnlyBase"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Creative/Devices/Generic/Meshes/CP_Device_GenericBaseBeam_01.CP_Device_GenericBaseBeam_01'"
+            CachedMaxDrawDistance=2800.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            AttachParent="CreativeEditOnlyBase"
+            RelativeScale3D=(X=1.000000,Y=1.000000,Z=57.219572)
+            bHiddenInGame=False
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="OnCreativeButtonPreview" ExportPath="/Script/FortniteGame.FortCreativeDeviceButtonComponent'/OneTrue1v1/OneTrueArmy1.OneTrueArmy1:PersistentLevel.Device_CustomControls_ThirdPerson_C_UAID_D8BBC19635387A1002_2010897952.OnCreativeButtonPreview'"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="RotationIndicatorPivot" ExportPath="/Script/Engine.SceneComponent'/OneTrue1v1/OneTrueArmy1.OneTrueArmy1:PersistentLevel.Device_CustomControls_ThirdPerson_C_UAID_D8BBC19635387A1002_2010897952.RotationIndicatorPivot'"
+            AttachParent="CreativeEditOnlyMesh"
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         Begin Object Name="RotationIndicator" ExportPath="/Script/FortniteGame.CreativeEditOnlyMeshComponent'/OneTrue1v1/OneTrueArmy1.OneTrueArmy1:PersistentLevel.Device_CustomControls_ThirdPerson_C_UAID_D8BBC19635387A1002_2010897952.RotationIndicator'"
+            StaticMesh="/Script/Engine.StaticMesh'/Game/Creative/Devices/Generic/Meshes/CP_Device_Generic_DirArrow_01.CP_Device_Generic_DirArrow_01'"
+            OverrideMaterials(0)="/Script/Engine.Material'/Game/Creative/Capture/3D_Fixes/Holograms/CC_M_Hologram_Figure.CC_M_Hologram_Figure'"
+            CachedMaxDrawDistance=2800.000000
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            AttachParent="RotationIndicatorPivot"
+            bVisible=False
+            bHiddenInGame=True
+            UCSSerializationIndex=0
+            bNetAddressable=True
+            CreationMethod=SimpleConstructionScript
+         End Object
+         RotationIndicatorPivot="RotationIndicatorPivot"
+         RotationIndicator="RotationIndicator"
+         TurnSpeedMultiplier=0.000000
+         TargetingLockOn=Always
+         RangedTargetingDistance=10000.000000
+         TargetingDistanceWhenAiming=10000.000000
+         RangedTargetingAngle=90.000000
+         TargetingAngleWhenAiming=180.000000
+         RequireTargetLineofSight=False
+         RotateTowardTarget=True
+         TargetableDeviceInEditMode=True
+         AimTargetingRequiresLineOfSight=False
+         ScaleWeightByDistance_Override=False
+         ScaleWeightByAngle_Override=False
+         TargetingRotationUpdated=True
+         AimingDistanceUpdated=True
+         OnCreativeButtonPreview="OnCreativeButtonPreview"
+         CreativeEditOnlyBeam="CreativeEditOnlyBeam"
+         CreativeEditOnlyBase="CreativeEditOnlyBase"
+         CreativeEditOnlyMesh="CreativeEditOnlyMesh"
+         Creative_UseRestriction_Affects_Component="Creative_UseRestriction_Affects_Component"
+         Priority=5000.000000
+         AddTo=(DefaultHandlerFunctions=(),Instance=(EventSubscriptions=((Object="/OneTrue1v1/OneTrueArmy1.OneTrueArmy1:PersistentLevel.Device_Button_V2_C_UAID_D8BBC19635387A1002_2073075954",EventDescriptor=(MemberName="On Interact",MemberGuid=042F90C243ABCDE28E48ABBC5CCA0A4F,bSelfContext=True)))))
+         AddToPlayersOnStart=False
+         RemoveOnElimination=True
+         VisibleInGameComponent="VisibleInGameComponent"
+         EnabledComponent="EnabledComponent"
+         FortMinigameProgress="FortMinigameProgress"
+         ToyOptionsComponent="ToyOptionsComponent"
+         StaticMeshComponent="StaticMeshComponent0"
+         BoxComponent="BoundingBoxComponent"
+         EditorOnlyStaticMeshComponent="EditorOnlyStaticMeshComponent"
+         CullDistance=2800.000000
+         DataVersion=1
+         SavedActorGuid=69AEEB264EE75560FF1F2FA517BECEC2
+         ActorTemplateID="Device_CustomControls_ThirdPerson_C_236F73E9"
+         PlaysetPackagePathName="/CRD_CustomControls/SetupAssets/PID_CP_Devices_ControlPerspective"
+         LabelOverride="Control: Third Person"
+         NetDormancy=DORM_DormantAll
+         RootComponent="StaticMeshComponent0"
+         ActorLabel="Control: Third Person"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map
