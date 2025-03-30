@@ -12,3 +12,6 @@ Pauses Build Reset Timer
 Resumes Build Reset Timer
 # 7548
 Completes Build Reset Timer
+## Codes added beyond this point is from Gold vs. Purple and later
+# 5780
+Gives the Exotic Slapfire Shotgun
